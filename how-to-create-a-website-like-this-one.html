@@ -40,12 +40,12 @@
     <meta name="msapplication-TileColor" content="#333333">
 
 <meta name="author" content="Jiefeng Sun" />
-<meta name="description" content="Flex theme is availabe online and I use Pelican to generate this static site and host it on Github. There are a few steps 1. Create webpages using Pelican 2. upload your files to github and setup github page. - You can upload it by set the output filder as the …" />
+<meta name="description" content="Flex theme is availabe online and I use Pelican to generate this static site and host it on Github. There are a few steps 1 Create webpages using Pelican 2 upload your files to github and setup github page. - You can upload it by set the output filder as the …" />
 <meta name="keywords" content="pelican, python, theme">
 
 <meta property="og:site_name" content="Jiefeng personal website"/>
 <meta property="og:title" content="How to create a website like this one"/>
-<meta property="og:description" content="Flex theme is availabe online and I use Pelican to generate this static site and host it on Github. There are a few steps 1. Create webpages using Pelican 2. upload your files to github and setup github page. - You can upload it by set the output filder as the …"/>
+<meta property="og:description" content="Flex theme is availabe online and I use Pelican to generate this static site and host it on Github. There are a few steps 1 Create webpages using Pelican 2 upload your files to github and setup github page. - You can upload it by set the output filder as the …"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="https://jiefengsun.github.io/sun.github.io/how-to-create-a-website-like-this-one.html"/>
 <meta property="og:type" content="article"/>
@@ -120,15 +120,16 @@
   <div>
     <p><a href="https://github.com/alexandrevicenzi/Flex">Flex theme</a> is availabe online and I use Pelican to generate this static site and host it on Github. 
 There are a few steps
-1. Create webpages using Pelican
-2. upload your files to github and setup github page.
- - You can upload it by set the output filder as the rootfile of your github repository
- - But a convenient tool to commit a whole a specific filder to github is <code>ghp- import</code>, which allow you to have your <code>.git</code> outside of the output folder
- - I use Windows, so I have created a <code>bat</code> file  to compile and push the file to the repository. I use the <code>About</code> page as my customized homepage so I just copy the <code>about.html</code> to replace the <code>index.html</code> 
- <code>pelican
-copy "output\pages\about.html" "output\index.html" /y
-ghp-import output -b master
-git push origin master</code></p>
+1   Create webpages using Pelican
+2   upload your files to github and setup github page.
+ -  You can upload it by set the output filder as the rootfile of your github repository
+ -  But a convenient tool to commit a whole a specific filder to github is <code>ghp- import</code>, which allow you to have your <code>.git</code> outside of the output folder
+ -  I use Windows, so I have created a <code>bat</code> file  to compile and push the file to the repository. I use the <code>About</code> page as my customized homepage so I just copy the <code>about.html</code> to replace the <code>index.html</code> </p>
+<div class="highlight"><pre><span></span><span class="n">pelican</span>
+<span class="n">copy</span> <span class="s2">&quot;output\pages</span><span class="se">\a</span><span class="s2">bout.html&quot;</span> <span class="s2">&quot;output\index.html&quot;</span> <span class="o">/</span><span class="n">y</span>
+<span class="n">ghp</span><span class="o">-</span><span class="kn">import</span> <span class="nn">output</span> <span class="o">-</span><span class="n">b</span> <span class="n">master</span>
+<span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">master</span> 
+</pre></div>
   </div>
   <div class="tag-cloud">
     <p>
