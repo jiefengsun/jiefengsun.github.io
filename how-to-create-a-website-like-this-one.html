@@ -39,17 +39,26 @@
     <!-- Microsoft EDGE -->
     <meta name="msapplication-TileColor" content="#333333">
 
-    <meta name="author" content="Jiefeng Sun" />
-    <meta name="description" content="Robotics and Artificial Muscle" />
-<meta property="og:site_name" content="Jiefeng personal website"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="Jiefeng personal website"/>
-<meta property="og:description" content="Robotics and Artificial Muscle"/>
-<meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://jiefengsun.github.io/jie.github.io"/>
+<meta name="author" content="Jiefeng Sun" />
+<meta name="description" content="Flex theme is availabe online and I use Pelican to generate this static site and host it on Github. There are a few steps 1. Create webpages using Pelican 2. upload your files to github and setup github page. - You can upload it by set the output filder as the …" />
+<meta name="keywords" content="pelican, python, theme">
 
-  <title>Jiefeng personal website &ndash;     Archives
-</title>
+<meta property="og:site_name" content="Jiefeng personal website"/>
+<meta property="og:title" content="How to create a website like this one"/>
+<meta property="og:description" content="Flex theme is availabe online and I use Pelican to generate this static site and host it on Github. There are a few steps 1. Create webpages using Pelican 2. upload your files to github and setup github page. - You can upload it by set the output filder as the …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://jiefengsun.github.io/jie.github.io/how-to-create-a-website-like-this-one.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2018-06-24 08:00:00-06:00"/>
+<meta property="article:modified_time" content="2020-04-24 08:00:00-06:00"/>
+<meta property="article:author" content="https://jiefengsun.github.io/jie.github.io/author/jiefeng-sun.html">
+<meta property="article:section" content="Blog"/>
+<meta property="article:tag" content="pelican"/>
+<meta property="article:tag" content="python"/>
+<meta property="article:tag" content="theme"/>
+<meta property="og:image" content="">
+
+  <title>Jiefeng personal website &ndash; How to create a website like this one</title>
 
 </head>
 <body>
@@ -98,17 +107,41 @@
 
 <article class="single">
   <header>
-    <h1>    Archives
-</h1>
+      
+    <h1 id="how-to-create-a-website-like-this-one">How to create a website like this one</h1>
+    <p>
+          Posted on June 24, 2018 in <a href="https://jiefengsun.github.io/jie.github.io/category/blog.html">Blog</a>
+
+
+    </p>
   </header>
+
+
   <div>
-    <dl>
-      <dt>June 24, 2018</dt>
-      <dd><a href="https://jiefengsun.github.io/jie.github.io/how-to-create-a-website-like-this-one.html">How to create a website like this one</a></dd>
-      <dt>November 16, 2016</dt>
-      <dd><a href="https://jiefengsun.github.io/jie.github.io/Shape Morphing.html">Shape Morphing</a></dd>
-    </dl>
+    <p><a href="https://github.com/alexandrevicenzi/Flex">Flex theme</a> is availabe online and I use Pelican to generate this static site and host it on Github. 
+There are a few steps
+1. Create webpages using Pelican
+2. upload your files to github and setup github page.
+ - You can upload it by set the output filder as the rootfile of your github repository
+ - But a convenient tool to commit a whole a specific filder to github is <code>ghp- import</code>, which allow you to have your <code>.git</code> outside of the output folder
+ - I use Windows, so I have created a <code>bat</code> file  to compile and push the file to the repository. I use the <code>About</code> page as my customized homepage so I just copy the <code>about.html</code> to replace the <code>index.html</code> 
+ <code>pelican
+copy "output\pages\about.html" "output\index.html" /y
+ghp-import output -b master
+git push origin master</code></p>
   </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://jiefengsun.github.io/jie.github.io/tag/pelican.html">pelican</a>
+      <a href="https://jiefengsun.github.io/jie.github.io/tag/python.html">python</a>
+      <a href="https://jiefengsun.github.io/jie.github.io/tag/theme.html">theme</a>
+    </p>
+  </div>
+
+
+
+
+
 </article>
 
     <footer>
