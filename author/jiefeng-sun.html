@@ -130,7 +130,7 @@
 </article>
 <article>
   <header>
-    <h2><a href="https://jiefengsun.github.io/my-study-in-mechanical-engineering.html#my-study-in-mechanical-engineering">My Study in Mechanical Engineering</a></h2>
+    <h2><a href="https://jiefengsun.github.io/my-study-in-mechanical-engineering.html#my-study-in-mechanical-engineering">[Encrypted] My Study in Mechanical Engineering</a></h2>
     <p>
           Posted on March 24, 2020 in <a href="https://jiefengsun.github.io/category/personal.html">Personal</a>
 
@@ -139,11 +139,45 @@
     </p>
   </header>
   <div>
-      <p>Since I enrolled in Mechanical Engineering from 2010, I have been studying in this field for 10 years. I want to summarize my studying path and the knowledge that I have earned.</p>
-<h4>Undergraduate Study  -- Basic Knowledge in the field</h4>
-<p>The bib file that I will use. </p>
-<h4>Master -- Mechanical Design</h4>
-<h4>PhD …</h4>
+      <div id="pec-encrypted-content" style="display:none">WVleJG+9dKmir6IPXO7USg==;n23yDN2cKAT93kjUrggh9BKFfP44Apo0zXFwfRWmVKEBftH2KONLOXOUx3nG6Q8qlW+yVAZmINQYI0MfZkZIpUzY4SI2Y2g98MxTRCskVLKXdsWJykKzzpz8m/Wh22yGiu2YcYi91guUwl36GJ3ykAJuhx4uTlpdhUd4MJ4oVNwQkxNXosuAujGELBQzgG8Zn7/9Ne6Go8Y4AtuYGM+clzH8e5UK1u8oaQJPKDwUHmpeJ/Mo8yNMPi/TsUGF7rxpJHFTG3fqO9uCC6xv1CwTeRpbQGxaMgQxf6DAcUfMSHJA23GP7szomSOjIS18BNH91so5Wy8JHqOUJSv6yMo6CzBgagta0VAq9aGcCX1Wp/F5A8rocgxY191YfTP1MJoa72HZqMghHgsAIrok1nuYIHmcdrITX+sK/NGsTM20LXlezAW2K7KwgOpOQCxv5DMYpFyIwZX+o3OS8OnP8j85r8V1pb9TJxcYagASrED1UDV9jgHAI8OzgE1DWdWvbq4d;^</div>
+<div id="pec-decrypted-content">
+    <h4><i>This content is encrypted.</i></h4>
+</div>
+
+<form id="pec-decrypt-form">
+    <label for="pec-content-password">Password</label>
+    <input type="password" id="pec-content-password" placeholder="Password" />
+    <button type="button" id="pec-decrypt-content">Decrypt</button>
+</form>
+
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/core.js"></script>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/enc-base64.js"></script>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/cipher-core.js"></script>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/pad-nopadding.js"></script>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/md5.js"></script>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/aes.js"></script>
+
+
+<script type="text/javascript">
+    (function () {
+        var strip_padding = function (padded_content, padding_char) {
+            /*
+             * Strips the padding character from decrypted content.
+             */
+            for (var i = padded_content.length; i > 0; i--) {
+                if (padded_content[i-1] !== padding_char) {
+                    return padded_content.slice(0, i);
+                }
+            }
+        };
+
+        var …</script>
         <br>
         <a class="btn" href="https://jiefengsun.github.io/my-study-in-mechanical-engineering.html#my-study-in-mechanical-engineering">    Continue reading
 </a>
