@@ -119,7 +119,7 @@
     </p>
   </header>
   <div>
-      <div id="pec-encrypted-content" style="display:none">vTcphKYP5bs7hpcliEcVYQ==;hFRYVjNt9+/4z2whz8uYZOvGnf5ER6CEy5eAX6jVJLT18txBnw9UkNx3bepRokEL5/1bZroZyo+RabL+3ns+Xg+ZDKn/nxedTWJ0StlEVrFlDpY005wrlegWd/ClCtMEnuGFODUAEUO/ckhLsvZCuOBGXff3iigm6AgCMjVBMWbCu4J/NU5IdwJ5ZbntR58FUdaopiU+unNlFlG+Mx7QXQ==;^</div>
+      <div id="pec-encrypted-content" style="display:none">ArR1atQAyBOYFtj8LwnkWw==;LBbUdybKtv296urn1utHQh9qL1dzgGg+8V7mKPo4RxC6/S7nilUDBLRBblI1CQ5rkglCugVjKDM9Vbn0ZmZ4bRU61fKrWshYTBEOfBLETMsExkjq36MKI4S2MyQsmWR6SwjmVaE05RJE5JLCqe1pViv5NLfJQMtVnJEye5EJyxnLSMKW0VBX5s97CI6TjhboLTpdeAeLKPXFMUelcYSEWw==;^</div>
 <div id="pec-decrypted-content">
     <h4><i>This content is encrypted.</i></h4>
 </div>
@@ -152,7 +152,14 @@
              */
             for (var i = padded_content.length; i > 0; i--) {
                 if (padded_content[i-1] !== padding_char) {
-                    return padded_content.slice(0, i …</script>
+                    return padded_content.slice(0, i);
+                }
+            }
+        };
+
+        var decrypt_content = function (password, iv_b64, ciphertext_b64, padding_char) {
+            /*
+             * Decrypts the content …</script>
         <br>
         <a class="btn" href="https://jiefengsun.github.io/100-things-that-i-will-do-in-next-10-years-2020-2030.html#100-things-that-i-will-do-in-next-10-years-2020-2030">    Continue reading
 </a>
@@ -170,7 +177,7 @@
     </p>
   </header>
   <div>
-      <div id="pec-encrypted-content" style="display:none">sDeDXrAI7ar7DigSncu4gQ==;zk1DDtDD8axbi98le563xV+moQcGbPhMu5K3GXX71nk9jab/wxaVR/m/2A1bhE/NHCWImcm0boMZJd9XPrg0tIpFB2W58S1i/4jqv5B3xNzmtZCBTYkKGl/RyYpZz1hKTg7BC7EJZ0qfr/XVdXN85znVV9ija1NczUM5ENj0zat0UnxJiX7nE0Jx/MQO+2VKHCkdGEtb1nzql5d8U8z6P+yaS2jmo13z3ppTdakdLy5H4uuh+ikIxYV9reFy+10EEYJofSgpnkOJySbx+6VMNsSDqDOamm3Pq2QMVHH8wRoUiyi46YaYUCLYXF7m1Nyt+ssMDmrTZSCnjiOGyxm8GE7IioqM2ofO1wud9c0PyA25MAA8PeH8MaeFzIDIEXWKL7pLYx+qyIT3QhkZdBFzVjsqDNoPEHSIaYR3j1eAtpRLlvBWqfq3mCWqM85JS+T48LeGqmDRIWrxSuJ1AoqDrVhoMmeraYl0A5R/ZjApVBPRfaaEehON0QwV7YNtTIfMa+LBtCe3Oj5zH0pT18sYsKeGzfJHpynO54Gh4fWua26BHrFJ7hLsQTfCI6wLcYtq4ab5kvoFney1SRoUZ09eWYIhzBOAFcOXsa5z9tJO8YF/R2LVpEMJPydTjDRtM1QGrnYeKVEKVIvHiULrKNw6EK3CkLjGP0hG0cAXa/4yGUw=;^</div>
+      <div id="pec-encrypted-content" style="display:none">1LN0kt7qEglYhYKKoA9s3w==;HaK5gAbcd+zXLFgc5Vy3F61mJmyioEC8jm6Vk8ZFdVaI2c8NiyTdZJL97it1EuNJCm3UdRxoZfL3A7DKVeXd/7dg8Xjv3ZCoCiyx0er+7joxBnvVebo9CR4VJRA+xp2u4aNELKyJk65mYsz273A8XY8JyO9hmZTOFvCpF+Q1hSEzRk5E7qRKB9eI+fNTEUJxt/X2a8yHi33Qj6utgqWH1FzBoVQIV5ejYGPu+aiOZRPKrNq8xdevzkH4C7djGXdnV8Fy83/WPrEi9C5171dW2gYz4YAPYizGZHNNcNrDRG3pBqFeeyjjzdcOczLYi1nVrDb4uxxodjIQmiV3JBYJericUj+S1dzrCPvrsjmFpr29RSDB9pGIdnheLrt/oZmLnbjHcBJsdjPNEhnFEiLbJXUHM0h7IHNoJ9T+tqSQT6EnqhSxfpGrhcVq+F/4uFpa1C9+7ghN/5aHJEKDqJUCeD/9pO2KYV476OnsmEv1709nGVZJIwkkm0vl7uGOQQ1PPDYRa94qQkSi6RdgYPAHVSHw34kJGKRkWca5HryZ4htbKbnYR7QPFUM7IcfNsVZVw7DftDj2j2mmJWnlCP0Nzr6Xf9/UskgkcvMpmAvSFLcXUUifP6UOEYMu15vdJphcESYDmbnvAwJKtiUd26j8CLGQNz/fuZn8pXHpjx1zKUs=;^</div>
 <div id="pec-decrypted-content">
     <h4><i>This content is encrypted.</i></h4>
 </div>
@@ -201,7 +208,8 @@
             /*
              * Strips the padding character from decrypted content.
              */
-            for (var i = padded_content.length; i > 0; i-- …</script>
+            for (var i = padded_content.length; i > 0; i--) {
+                if (padded_content …</script>
         <br>
         <a class="btn" href="https://jiefengsun.github.io/debug-the-tca-modeling.html#debug-the-tca-modeling">    Continue reading
 </a>
@@ -219,7 +227,7 @@
     </p>
   </header>
   <div>
-      <div id="pec-encrypted-content" style="display:none">BORsZK/AVI5/qOaa5lXR6g==;RE5UNLLFM7cz7bej2p+LFVq7GXc1+ocNEDuFf2DSoCtuzuB8bXBRAOxZhxkkBQl4EZYtwHnh7YXwt2RIyeBoZvIRkZjEl4FHnru6PZrFBgp66OmvI11r0zTv2NKuVZkfLN9v83vEeNKqioONHd0CkioNPtUFr9PKlqTetgEkcX9sRWCy5gIxGAV6TPM/zumGwVgS8eAahbHwmIXyI1VPl9MwrIVzT5qTymX7r/czBbgjnMomZ6+6qyNWPnbVh08l9mv0nAjHRFE80ZvZ7KoK45rV++mvBePwXTJ2BMisqJezEE1+RKbsxpjvi7gkDe/VPiSQq591+Dnij4EqWSeEkDWYD9OnPlPTV+zi69/Ov58ZBWCwU6A/D7g6QJnAvXIjiiVfC4yEPJSOOj5ADWNXkZIelMeFBKNvVdoE694R0M1cYag7+t+60+FQc50p5teBba2ZbGlhCyMFhVQV4fY7EIo48/Hqp/7PnlTa9joH3SMBOsYWeMrlvmY60aOHHtUDKFmesGkGRIs9ehcYyC5NEA/QJBjoUT12lJj0BO8bs5gEvPRtq7JAd7GNNzzquSv/LteaTL3faNz3asuWpYUicbiodw1mvl+hj7G9khpmZr0CHdszVWd/40FOFXrmpQUtoxfPVxAMuQd9CFhSRL5B4TUSjpIKGeSvGyAJ8BuOK0LsuwySvPk1DJUyhGnThc+8POQFWp+Vf8yTYPvh0QG9nnh4TQ0IMWMG7xPT3QfsFa7r9C4ts/u18G0gtFLdiXSCKdz06whMv3MYN85kA9CvCl3ZXaxMjAGnErLP+Vt3Afo8XoopLxM8HB3vYokx/9bfKWrqTKz/GYaCVl2TkHielZfcuckxIQIspkZ1ACs8AlJNU8XFwM4/EIEtQVNZzlfmJ9/wEg/WwWhZwRXMGR9Bt6NogtgpTa4VOlTAw07O0WCI6Twd9oCzv0jl5KCyD4Avx6mY3pVOokkYG1xgAtZv1V4czbGsoU3HF5mxHIw+LLepnsOKxeBC2zu5/tmNuOwLCk+cBc2GG1YvXmDeW+lBGNh3nJNjAvFYm2NPKedY/9BDt4oGkrYRgTkJzm29aDNyECYtlTjCNnuAPCwr8euI7sU/0/IfFlT3kfjRlzdnwnKPT1DFadFNMnJIxbaz20LddoGdQNnlnTbNtoIKC+2odVAlLtnXfXggpqeZKZ1+vsp4ut6njAFXEGM+omV9EKY1e2qkFOhpcZWmFgh+S+mJQPmVfOSJB7lvYgbaH0ZcpfEWupUd7Ay++Dg16d1a5w3l+dZDp0vgmlwAnIlC4gVTAhjRYqYtaPJkQII0xLBWzChOJZlXZQMO5hQZ3ecrdP9ouFT+vin4AdA65R0FLa1rOVAn0W6G5TtbDTpJuJav3Ul5lVSXqJfDf/aOb0nVUNraD6QXm1 …</div>
+      <div id="pec-encrypted-content" style="display:none">IdTaxhIhbzbcnlSBchOJgA==;BklJlMDMzbGVGUTma24L6s91EJPIe4h16Otv94ZAGi5MVvfoAr7+ZKCh4AnmYAgL4kUE7hxOK033w9W9NrxSGkCSNV4MuTwi0knVoHwC9ObXQXrraERoC8bqlcnBnCeSKzqqV9E3Mhu8ed9CoCfYqxggH16X9QiMoRQl6N4k9Rm62G9WNS78PIa7msYoQzOImGCObcxLpoBl5XmZAt2J1B3/gFE1pV4OJF95ux/tinxxrkQLd2BZesCah6umdysQhWfRWaDoH9dyFVskf38MuYgyl8eTVZBZP3t6LdwUC06eqyzn0ACQDgnjYpTpWN2gsAzInXkHLl7rJXujihv18dtqgf0FjcF2ymTGjDvrGWe3QUQbZQRwVdRl8Ohq3MylIqucFpNx3NR6pFLNBJiEqiDugpVIzR9sbxl6EFbC1sOqf04K4LJjPko3xZVnNlkAtdr9M7dJCUl1Jy4QN+3vnBrLhE/+6BajtzJkuBa7wv59K4TKxSE/FWUzQlcx0OsIWj/ivHmNle+WDAXdcEAT25EfPQHTVMwW2i7HIW29mxy3VacwMxbupXp/n/3rJeJQLeoPnc3acOLUiIrcjrhWuQzNc1CsKoAazTIMu333f0xRb8DVOyprX8e/knpYlMbW/NHDKCs4X542l2t3TiwzKDZsNDe9BguhAvkbvMmRv7Cdtj5WYVxO/BpgO4MhiCf8gChN8KVAjzqjHNpmqiibzKMhOSB8eDmqluHXyb7xMbrF7TnNwL9F6kYSWM57t4rSEyyLfX2rd8J8M5Kyku4h/PbXVp2Gp5uFrdzMi4keWemdq0dsO2Ot94RDB72UAfl5HOVSL6oyjwRiDZr3gvo8+YKVQ6LvCBCg+63BCU+eMg1/iFiwnLWUnpwhGFt2cgzdT+Mn/hECAwJ9LvqNbHCFJNk3Zn+RUux4aVsC/ac7tmsVKtssZ1Jqz671iy0xkmW8MBQHgSW2h/xOf6alFbo8qNGilQXGnZT/LzIKtxAJvxDNMK+j6WuZIfgkmKAznOV4hVhO/nFZkNtTaWr3YVRRp1PnVVrb7V0U+oYrZLb+eoX7PXmuTBhYGdzgyQjs45xJz9Evc6r6Kxt/PqMIh2ub+QD2Ap9b5AgbUok5UD/tPiV0i+UlcWYVbWOrAfbA1G0KmdTYdBklkaYlD6nR8oVtDgoYGzH7SjTsw+lcy5z09/XCn82wLybCJXaBcOc/ZA6blCLsVJvN1pJuv76bL9/oTF4mCII/0E+8l66WSpCvYf3f4lX12113/LWiXubP2Li2yrYJc2ijOS7mMgOEC6zSFqa4uKOZEDkRNuKpVJJiv2LbUqMpk6uHzQprVIDPlTcnX+S4FIU4ni31+rOJdpRozlo6Lhkyt6yjGBqPFNmyogeToszr8jva27SMxBJymXNporAEjecF+NEFgMhKWBmtMai/rB4F5dSqo8bhPxylMT/bKHrvPzMNNiLkSCVMur/voAyt80Rb97nPMxT94eusoioTQzMALs/UmKyEi0fekOHW9MryjOmaK4yXnWDeEujTcrpkY8XZObPmlaxJ+2Hr+CXZLv8DxoBje …</div>
         <br>
         <a class="btn" href="https://jiefengsun.github.io/matlab-vs-python-for-computation-purpose.html#matlab-vs-python-for-computation-purpose">    Continue reading
 </a>
@@ -257,7 +265,7 @@
     </p>
   </header>
   <div>
-      <div id="pec-encrypted-content" style="display:none">VmFnalHASJdiYugTBwlzoA==;AqWvLTWGWvsxKWqhqP/SXn4tutUIpR9Z9ScWyiYY/jD7ZXM9QVc75aLPzyfjQ53LawAXY3hnEsWDt5H5V13F4rNUmF3UMeUVinZzWCpk1cO9T8792eZDYmtHGVGSxF9UzY35hEiFowc/AKmZepBv3zHFShoNVQSOY5/C78hbRuKIMKvA1qUlgK6mF48bBUyXlHOIMZyPxGSUDxeV5snN3u2AltyFskMUSKLz4MB3CdV536GMvm3Wd1qOhsBhVSMzPRIOEYpFJWFngkDlupTD3fT4rYU5Eb2eEk9jqTM510/sPQm4ihrBwDPEWfdJ0SD21yryDcoyJh1RB0JP1cA+2HyA7Knwp6s/y0yY0yFSgW+Dp2Gm/jr6UtkW3SdMxAovxw03IO/ODcxSmWOg5L4jcpljbRCVBBmS2WMeqTj15NLQrZKGsnrLL4kj1oYmo6rdHrSLdPYyL9/r798mgGBmPcAy7AgFagiIC+voyc7hcZn+xEo2qQ97QgjEzM9uEHTo;^</div>
+      <div id="pec-encrypted-content" style="display:none">AOPXF4fsPpHxtxDXdyNV8A==;BY+zP8odK1DrsvohfKaQkewYK+HBO7czGxDWxMGxROODxiORyPONOTloih66BdVJkbbo2cYU2TWatcFKvQpZkDKWRGrSUoQSqKOif4id91qsX2IPpZeqhwhIHDgh0Z5ynObPVQF3tG1p+hPETaBNccecayqXnrEJQp2diXr1iSJ6RYYfYC1uuFbGUE8FqtJSasQ06gHgfbCFYklRiECEocJxNga71+ToVS7FZzIAG8oym+O+hS9y55l7uNN/M5sr3hs5dBaJVRCVfUa1h4js7L8kYp4nWoGs7ThxV9cfnT6IKghUtzIpFTkfOVqhw1GW5Ozf2DrCMJrkVrOxe0/cxdfJp60MCNj/P5dtrR9vRrtQIExzj/c0+WAySGT5NIkl9qZTRvUcVP/OXSn83SLUQb4LZ8sKKozOoZksPFchkakUX5+E0cihiKVhd6YWxyBLKnMXXzaQV1f2dRljmaCc9UyjGYsHfXZkN/OCBBq7sH2AYSkiUqRKIJOfg57in4n1;^</div>
 <div id="pec-decrypted-content">
     <h4><i>This content is encrypted.</i></h4>
 </div>
@@ -290,7 +298,7 @@
              */
             for (var i = padded_content.length; i > 0; i--) {
                 if (padded_content[i-1] !== padding_char) {
-                    return padded_content.slice(0 …</script>
+                    return padded_content.slice …</script>
         <br>
         <a class="btn" href="https://jiefengsun.github.io/my-study-in-mechanical-engineering.html#my-study-in-mechanical-engineering">    Continue reading
 </a>
