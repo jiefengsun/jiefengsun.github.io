@@ -2,9 +2,9 @@
 # this is the new site
 
 from datetime import datetime
-
+LOAD_CONTENT_CACHE = False
 AUTHOR = 'Jiefeng Sun'
-SITEURL =  http://localhost:8000'   #'https://jiefengsun.github.io' #'
+SITEURL =   'http://localhost:8000'   #'https://jiefengsun.github.io' #
 SITENAME = 'Jiefeng personal website'
 # SITETITLE = 'Flex'
 SITESUBTITLE = 'Jiefeng Sun, PhD student'
@@ -13,7 +13,7 @@ SITEDESCRIPTION = 'Robotics and Artificial Muscle'
 # SITELOGO = ''
 FAVICON = '/images/favicon.ico'
 BROWSER_COLOR = '#333333'
-PYGMENTS_STYLE = 'monokai'
+PYGMENTS_STYLE = 'github'
 
 ROBOTS = 'index, follow'
 
@@ -21,7 +21,7 @@ ROBOTS = 'index, follow'
 THEME =  "C:/Users/jacksee/AppData/Local/Continuum/anaconda/Lib/site-packages/pelican/themes/flex"
 
 TIMEZONE = 'America/Denver'
-PATH = 'content'
+#PATH = 'C:/Users/jacksee/blog'
 OUTPUT_PATH = 'output/'
 
 
@@ -52,20 +52,6 @@ SOCIAL = (
 
 MENUITEMS = (('Blog Posts', '/categories.html'),)
 
-# MENUITEMS = (('Archives', '/archives.html'),
-             # ('Categories', '/categories.html'),
-             # ('Tags', '/tags.html'),)
-
-# LINKS = (('Adaptive Robotics Lab', 'https://www.engr.colostate.edu/~zhao/'),
-	    # ('Google Scholar', 'https://scholar.google.com/citations?user=fjUoHOsAAAAJ&hl=en'),
- #       ('Colorado State Univeristy', 'https://www.colostate.edu/'),
-		# )
-
-# CC_LICENSE = {
-    # 'name': 'Creative Commons Attribution-ShareAlike',
-    # 'version': '4.0',
-    # 'slug': 'by-sa'
-# }
 
 COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 5
@@ -79,10 +65,8 @@ STATIC_PATHS = ['images','pdfs']
 
 USE_LESS = True
 
-
-PLUGIN_PATHS = ['C:/Users/jacksee/Github/blog/pelican-plugins']
-PLUGINS = ['encrypt_content']
-
+#PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['encrypt_content', 'render_math']
 
 ENCRYPT_CONTENT = {
     'title_prefix': '[Encrypted]',

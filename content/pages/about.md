@@ -16,12 +16,15 @@ Scott Inaugural Graduate Fellowship, 2017
 Finalist for the best student paper in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS,2018)
 
 #### My Links
-[Google Scholar](https://scholar.google.com/citations?user=fjUoHOsAAAAJ&hl=en), [Researchgate](https://www.researchgate.net/profile/Jiefeng_Sun2), [Dr. Zhao's Adaptive Robotics Lab](https://www.engr.colostate.edu/~zhao/), [Linkdin](https://www.linkedin.com/in/jiefeng-sun/), [YouTube Channels](https://www.youtube.com/channel/UCkeHwaZrEeFG-GXNSTONIzg)
+[【Google Scholar】](https://scholar.google.com/citations?user=fjUoHOsAAAAJ&hl=en), [【Researchgate】](https://www.researchgate.net/profile/Jiefeng_Sun2), [【Dr. Zhao's Adaptive Robotics Lab】](https://www.engr.colostate.edu/~zhao/), [【Linkdin】](https://www.linkedin.com/in/jiefeng-sun/), [【YouTube Channels】](https://www.youtube.com/channel/UCkeHwaZrEeFG-GXNSTONIzg)
 
 #### News
+
+- One paper is accepted by IROS. 01/07/2020
 - One paper coauthored with Dr. Jie Yin's group is published by Science Advance 05/2020.
 - One paper is Accepted by Soft Robotics 05/2020
 - One conference paper is accepted by ICRA 03/2020.
+
 #### [My blog ctegories](https://jiefengsun.github.io/categories.html)
 The blog contains my posts on my previous projects summary (Robotics Modeling, Numerical Simulation, Artificial Muscle ect.).
 
