@@ -4,11 +4,13 @@
 from datetime import datetime
 LOAD_CONTENT_CACHE = False
 AUTHOR = 'Jiefeng Sun'
-SITEURL =   'http://localhost:8000'   #'https://jiefengsun.github.io' #
+SITEURL =  'http://localhost:8000'   # 'https://jiefengsun.github.io' #
 SITENAME = 'Jiefeng personal website'
 # SITETITLE = 'Flex'
 SITESUBTITLE = 'Jiefeng Sun, PhD student'
 SITEDESCRIPTION = 'Robotics and Artificial Muscle'
+SUMMARY_MAX_LENGTH = 20
+
 
 # SITELOGO = ''
 FAVICON = '/images/favicon.ico'
@@ -65,7 +67,7 @@ STATIC_PATHS = ['images','pdfs']
 
 USE_LESS = True
 
-#PLUGIN_PATHS = ['pelican-plugins']
+PLUGIN_PATHS = ['C:/Users/jacksee/AppData/Local/Continuum/anaconda/Lib/site-packages/pelican/plugins']
 PLUGINS = ['encrypt_content', 'render_math']
 
 ENCRYPT_CONTENT = {
