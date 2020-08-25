@@ -6,7 +6,7 @@ Password: jiefeng
 
 https://www.youtube.com/watch?v=sPA4tK9HzYU&list=PL8YHaJ7hMWTMc-YRUfqxuoa-2JOu1x0tF&index=2
 ### 现代婚姻的四种威胁
-- 诗篇 127：1  若不是耶和华建造房屋，建造的人就枉然劳力；若不是耶和华看守城池，看守的人就枉然警醒。
+- 诗篇 127：1  若不是耶和华建造房屋，建造的人就枉然劳力； 若不是耶和华看守城池，看守的人就枉然警醒。
 
 #### 世俗的模式
 

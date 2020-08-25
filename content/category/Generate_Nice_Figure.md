@@ -3,12 +3,12 @@ Date: 2020-07-11 08:00
 Modified: 2020-07-25 10:50
 Category: Research
 
-#### What is previously I did?
+#### Tools
 I use PowerPoint to draw figure and export to different formats.
 Pros: Easy to use, especially it has an equation editor
 Cons: It cannot export very high-resolution figures. I don’t know why, but my PowerPoint can only export 150 DPI which is not a high as others can do. 
 
-#### What is the way I think will be better?
+#### Is Adobe Illustrator better?
 
 Switch to Adobe Illustrator since I have it. I have to take some time to get used to it. But eventually, it will be a great tool that allows to me generate very nice figures. Of course, the bad side is that I have to import equations from other sources. 
 

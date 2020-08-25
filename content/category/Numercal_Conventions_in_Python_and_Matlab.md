@@ -13,7 +13,7 @@ I just come up with some conventions to facilite nice codes.
 ##### Name and loop conventions
 N_t: Number of time steps;
 N_s: Nummber of spatial points;
-Simple eq: $N_t$
+
 
 First we can generate a series of points
 ```python
@@ -38,3 +38,6 @@ plt.savefig('%s.png' % filestem); plt.savefig('%s.pdf' % filestem)
 ##### Note
 
 1. Remember to return an array. If it is an list, remember to convert it to an array. 
+
+
+
