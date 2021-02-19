@@ -49,17 +49,23 @@
     <!-- Microsoft EDGE -->
     <meta name="msapplication-TileColor" content="#333333">
 
-    <meta name="author" content="Jiefeng Sun" />
-    <meta name="description" content="Robotics and Artificial Muscle" />
-<meta property="og:site_name" content="Jiefeng personal website"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="Jiefeng personal website"/>
-<meta property="og:description" content="Robotics and Artificial Muscle"/>
-<meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://jiefengsun.github.io"/>
+<meta name="author" content="Jiefeng Sun" />
+<meta name="description" content="Preallocate the memory. The prepared memory will save time on finding a new address. Vectorization. The program can deal with …" />
+<meta name="keywords" content="">
 
-  <title>Jiefeng personal website &ndash;     Archives
-</title>
+<meta property="og:site_name" content="Jiefeng personal website"/>
+<meta property="og:title" content="How to speed up your code"/>
+<meta property="og:description" content="Preallocate the memory. The prepared memory will save time on finding a new address. Vectorization. The program can deal with …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://jiefengsun.github.io/how-to-speed-up-your-code.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2020-08-24 08:00:00-06:00"/>
+<meta property="article:modified_time" content="2020-08-25 10:50:00-06:00"/>
+<meta property="article:author" content="https://jiefengsun.github.io/author/jiefeng-sun.html">
+<meta property="article:section" content="Research"/>
+<meta property="og:image" content="">
+
+  <title>Jiefeng personal website &ndash; How to speed up your code</title>
 
 </head>
 <body>
@@ -108,37 +114,45 @@
 
 <article class="single">
   <header>
-    <h1>    Archives
-</h1>
+      
+    <h1 id="how-to-speed-up-your-code">How to speed up your code</h1>
+    <p>
+          Posted on August 24, 2020 in <a href="https://jiefengsun.github.io/category/research.html">Research</a>
+
+
+    </p>
   </header>
+
+
   <div>
-    <dl>
-      <dt>January 18, 2021</dt>
-      <dd><a href="https://jiefengsun.github.io/conical-tca-simulation.html">[Encrypted] Conical TCA Simulation</a></dd>
-      <dt>January 18, 2021</dt>
-      <dd><a href="https://jiefengsun.github.io/tca-tro.html">TCA TRO</a></dd>
-      <dt>August 24, 2020</dt>
-      <dd><a href="https://jiefengsun.github.io/how-to-speed-up-your-code.html">How to speed up your code</a></dd>
-      <dt>August 03, 2020</dt>
-      <dd><a href="https://jiefengsun.github.io/numerical-conventions-in-python-and-matlab.html">Numerical Conventions in Python and Matlab</a></dd>
-      <dt>August 01, 2020</dt>
-      <dd><a href="https://jiefengsun.github.io/software-recommendation.html">Software Recommendation</a></dd>
-      <dt>July 11, 2020</dt>
-      <dd><a href="https://jiefengsun.github.io/generate-nice-figures-procedures.html">Generate Nice Figures - Procedures</a></dd>
-      <dt>July 11, 2020</dt>
-      <dd><a href="https://jiefengsun.github.io/good-online-books.html">Good Online Books</a></dd>
-      <dt>July 11, 2020</dt>
-      <dd><a href="https://jiefengsun.github.io/symplectic-methods-and-energy-conservation.html">Symplectic methods and energy conservation</a></dd>
-      <dt>June 11, 2020</dt>
-      <dd><a href="https://jiefengsun.github.io/hun-yin-fu-dao.html">[Encrypted] 婚姻辅导：</a></dd>
-      <dt>June 11, 2020</dt>
-      <dd><a href="https://jiefengsun.github.io/onedrive-error-message-sorry-there-was-problem-displaying-this-folder-please-try-again.html">OneDrive Error Message: Sorry, there was problem displaying this folder... please try again</a></dd>
-      <dt>June 11, 2020</dt>
-      <dd><a href="https://jiefengsun.github.io/soft-robotics.html">Soft Robotics:</a></dd>
-      <dt>May 18, 2020</dt>
-      <dd><a href="https://jiefengsun.github.io/matlab-vs-python-for-computation-purpose.html">[Encrypted] Matlab VS Python for Computation Purpose</a></dd>
-    </dl>
+    <ol>
+<li>
+<p>Preallocate the memory. The prepared memory will save time on finding a new address. </p>
+</li>
+<li>
+<p>Vectorization. The program can deal with blocks instead of individual values. </p>
+</li>
+<li>
+<p>Precalculation. You don't want to calculate repeat things, and it's better to calculate it before using it in a loop. </p>
+</li>
+<li>
+<p>Use functions from standard libraries. These functions may run faster than yours. </p>
+</li>
+<li>
+<p>Use more hardware. GPUs, multiple cores, and parallel your code. </p>
+</li>
+</ol>
+<p>Of course, using <code>C++</code> rather than <code>Python</code> or <code>Malab</code> will also speed up your code a lot.</p>
   </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
+
+
+
+
+
 </article>
 
     <footer>

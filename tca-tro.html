@@ -50,22 +50,23 @@
     <meta name="msapplication-TileColor" content="#333333">
 
 <meta name="author" content="Jiefeng Sun" />
-<meta name="description" content="\(y = x^2\) Coming soon! if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;center&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen …" />
-<meta name="keywords" content="">
+<meta name="description" content="A General Framework for Physics-based Modeling of various Twisted-and-Coiled Actuators Introduction This is the supporting page of the paper titled …" />
+<meta name="keywords" content="TRO">
 
 <meta property="og:site_name" content="Jiefeng personal website"/>
-<meta property="og:title" content="Symplectic methods and energy conservation"/>
-<meta property="og:description" content="\(y = x^2\) Coming soon! if (!document.getElementById(&#39;mathjaxscript_pelican_#%@#$@#&#39;)) { var align = &#34;center&#34;, indent = &#34;0em&#34;, linebreak = &#34;false&#34;; if (false) { align = (screen …"/>
+<meta property="og:title" content="TCA TRO"/>
+<meta property="og:description" content="A General Framework for Physics-based Modeling of various Twisted-and-Coiled Actuators Introduction This is the supporting page of the paper titled …"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://jiefengsun.github.io/symplectic-methods-and-energy-conservation.html"/>
+<meta property="og:url" content="https://jiefengsun.github.io/tca-tro.html"/>
 <meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2020-07-11 08:00:00-06:00"/>
-<meta property="article:modified_time" content="2020-07-25 10:50:00-06:00"/>
+<meta property="article:published_time" content="2021-01-18 08:00:00-07:00"/>
+<meta property="article:modified_time" content="2020-02-15 08:00:00-07:00"/>
 <meta property="article:author" content="https://jiefengsun.github.io/author/jiefeng-sun.html">
 <meta property="article:section" content="Research"/>
+<meta property="article:tag" content="TRO"/>
 <meta property="og:image" content="">
 
-  <title>Jiefeng personal website &ndash; Symplectic methods and energy conservation</title>
+  <title>Jiefeng personal website &ndash; TCA TRO</title>
 
 </head>
 <body>
@@ -115,9 +116,9 @@
 <article class="single">
   <header>
       
-    <h1 id="symplectic-methods-and-energy-conservation">Symplectic methods and energy conservation</h1>
+    <h1 id="tca-tro">TCA TRO</h1>
     <p>
-          Posted on July 11, 2020 in <a href="https://jiefengsun.github.io/category/research.html">Research</a>
+          Posted on January 18, 2021 in <a href="https://jiefengsun.github.io/category/research.html">Research</a>
 
 
     </p>
@@ -125,8 +126,94 @@
 
 
   <div>
-    <p><span class="math">\(y = x^2\)</span></p>
-<p>Coming soon!</p>
+    <!---Password: jiefeng!--->
+
+<h2><strong>A General Framework for Physics-based Modeling of various Twisted-and-Coiled Actuators</strong></h2>
+<h3>Introduction</h3>
+<p>This is the supporting page of the paper titled "A General Framework for Physics-based Modeling of various Twisted-and-Coiled Actuators". You will be able to download the preprint of the paper <a href="">here</a></p>
+<p>The purpose of this page is to help readers better understand our paper. It will be very helpful for readers who want to implement the simulation or use our model. </p>
+<p>It containes the following parts</p>
+<ul>
+<li>
+<p>Supporting Multimedia</p>
+</li>
+<li>
+<p>Derivation using Matlab</p>
+</li>
+<li>
+<p>Simulation tutotial and source code</p>
+</li>
+</ul>
+<h3>Supporting Multimedia</h3>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/_2ka1khKXDw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<ul>
+<li>The supporting Mutimeida provides a intuitive understanding of the simulation results.</li>
+</ul>
+<h3>Derivation using Matlab</h3>
+<p>Some derivations are pretty lengthy, and derivations using Matlab are provided to reduce the burden. </p>
+<ul>
+<li>
+<p>To run the demos, please download the <a href="https://github.com/jiefengsun/TCA_TRO/tree/main/01_functions">all subfunctions</a> to run the demos. </p>
+</li>
+<li>
+<p>Derivation of the reference strains and boundary consitions for <a href="https://jiefengsun.github.io/images/TRO/reference_strain_helix.html">a helical TCA</a>. It includes how to setup the <span class="math">\(u^*\)</span> and <span class="math">\(v^*\)</span>. </p>
+</li>
+<li>
+<p><a href="https://jiefengsun.github.io/images/TRO/love_equation.html">Derivation using Love's equation</a>, it includes how we transform the wrench to the body frame from the global frame. </p>
+</li>
+<li>
+<p><a href="https://jiefengsun.github.io/images/TRO/CST_Rod.html">Derivation using "Infenitesmal Strain Theory"</a>, it is corresponding to Sec. III(B) in the paper. </p>
+</li>
+<li>
+<p><a href="https://jiefengsun.github.io/images/TRO/CST_direct.html">Derivation directly using CST </a>, it is corresponding to Appendix III(C) in the paper. </p>
+</li>
+</ul>
+<h3>Simulation Tutorials</h3>
+<p>We provide a Tutorial to help the readers who wants to understand the details of the simulation.</p>
+<ul>
+<li>
+<p>The source code can be found in the following <a href="">Github repository</a>.</p>
+</li>
+<li>
+<p>Here are the links for the tutorials. (<strong>Not posted yet</strong>, the tutorials will be made public after our paper's review process. Check after Aug, 2021)</p>
+<ul>
+<li>
+<p><a href="">TCA statics using Cosserat rod model for a helical TCA</a></p>
+</li>
+<li>
+<p><a href="">TCA statics using Cosserat rod model for a Conical TCA</a></p>
+</li>
+<li>
+<p><a href="">TCA Dynamics using Cosserat rod model for a Conical TCA</a></p>
+</li>
+<li>
+<p><a href="">TCA statics using Love's Equation</a></p>
+</li>
+<li>
+<p><a href="">TCA statics using CST</a></p>
+</li>
+<li></li>
+</ul>
+</li>
+</ul>
+<h3>Want to Learn More about the Rod Model?</h3>
+<p>Here are some resources to help you learn rod model</p>
+<ul>
+<li>
+<p><a href="">Dr. John Till's tutorial on Cosserat rod simulation from Dr. Caleb Rucker's group</a>. This is a good tutorial more focus on numerical implementaion and it suitable for researchers with background on robotics.</p>
+</li>
+<li>
+<p><a href="https://rotations.berkeley.edu/site-information/">Dr. Oliver M. O’Reilly's website on Rode model formulation</a>. Good for researchers have background in (continuum) mechancis. It more focus on the theoritical formulation. </p>
+</li>
+<li>
+<p>Classic Books</p>
+<ul>
+<li>Antman, Stuart S. "Problems in nonlinear elasticity." Nonlinear Problems of Elasticity (2005): 513-584.</li>
+<li>Love, A. E. H., "A Treatise on the Mathematical Theory of Elasticity, 4th ed.", Cambridge University Press, Cambridge (1927).</li>
+</ul>
+</li>
+</ul>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
@@ -192,6 +279,7 @@
   </div>
   <div class="tag-cloud">
     <p>
+      <a href="https://jiefengsun.github.io/tag/tro.html">TRO</a>
     </p>
   </div>
 
