@@ -1,6 +1,6 @@
 Title: Publication
 Date: 2020-05-18 08:00
-Modified: 2020-06-01 08:00
+Modified: 2021-05-01 08:00
 Category: Intro
 
 #### **[[Google Scholar](https://scholar.google.com/citations?user=fjUoHOsAAAAJ&hl=en)]**
@@ -10,7 +10,10 @@ Category: Intro
 <img src="{static}/pdfs/Soft_Robotics_Arm_Actuated_By_TCA.gif" style="float:left; width:400px; padding-top:40px; padding-right:30px; padding-bottom:25px; padding-left:0px;">
 </figure>
 
-- Sun J, & Zhao J.(2020). Integrated Actuation and Self-Sensing for Twisted-and-Coiled Actuators with Applications to Innervated Soft Robots. IROS. Accepted [__PDF__]({static}/pdfs/Integrated Actuation and Self-Sensing for Twisted-and-Coiled Actuators with Applications to Innervated Soft Robots.pdf) 
+
+- Sun J, & Zhao J.(2021).Physics-based Modeling of Twisted-and-Coiled Actuators Using Cosserat Rod Theory. IEEE Transactions on Robotics (TRO). Accepted [__PDF__]({static}/pdfs/Physics-based_Modeling of Twisted and Coiled Actuators Using Cosserat Rod Theory.pdf)
+
+- Sun J, & Zhao J.(2020). Integrated Actuation and Self-Sensing for Twisted-and-Coiled Actuators with Applications to Innervated Soft Robots. IROS. [__PDF__]({static}/pdfs/Integrated Actuation and Self-Sensing for Twisted-and-Coiled Actuators with Applications to Innervated Soft Robots.pdf) 
 
 - Sun J, Tigh B, & Zhao J. (2020). Twisted-and-Coiled Actuators with Free Strokes Enable Soft Robots with Programmable Motions. Soft Robotics. [__PDF__]({static}/pdfs/Twisted-and-Coiled Actuators with Free Strokes Enable Soft Robots with Programmable Motions.pdf) [__News__]: [CSU News](https://engr.source.colostate.edu/soft-robots-can-flex-artificial-muscles-made-from-sewing-thread/), [TechXplore](https://techxplore.com/news/2020-07-artificial-muscle-thread-enables-motions.html)
 
@@ -34,7 +37,7 @@ Category: Intro
 
 #### Patent
 
-- Zhang, Haijie and Zhao, Jianguo & **Sun, Jiefeng**. Compliant bistable gripper for aerial perching and grasping. (Granted, 2020)
+- Zhang, Haijie and Zhao, Jianguo & **Sun, Jiefeng**. Compliant bistable gripper for aerial perching and grasping. (Granted, 2020) [__CSU Venture__](https://csuventures.org/project/compliant-bistable-gripper-for-aerial-robot-perching-and-grasping/)
 
 
 <iframe width="420" height="236" src="https://www.youtube.com/embed/RK1Jnvfy6J4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
