@@ -1,6 +1,6 @@
 Title: About
 Date: 2020-05-18 08:00
-Modified: 2021-08-01 08:00
+Modified: 2021-10-01 08:00
 
 My name is Jiefeng Sun, a PhD student at Colorado State University in [Mechanical Engineering](https://www.engr.colostate.edu/me/) since Aug, 2017 under the supervision of [Prof. Zhao](https://www.engr.colostate.edu/me/dr-jianguo-zhao/). My research focuses on design, modeling and control of soft robots and artificial muscles (high-energy-density small actuators). I earned my B.S. and M.S. in Mechanical Engineering respectively from Lanzhou University of Technology Lanzhou in 2014 and [Dalian University of Technology (DLUT)](http://en.dlut.edu.cn/) in 2017. Please find my [CV here]({static}/pdfs/CV_Jiefeng_Sun.pdf)
 

@@ -4,8 +4,6 @@ Modified: 2020-03-1 08:00
 Category: Research
 Tags: TRO
 
-<!---Password: jiefeng!--->
-
 ## **A General Framework for Physics-based Modeling of various Twisted-and-Coiled Actuators**
 
 ### Introduction

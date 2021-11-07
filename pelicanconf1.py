@@ -20,7 +20,7 @@ PYGMENTS_STYLE = 'github'
 ROBOTS = 'index, follow'
 
 # Specify a customized theme, via path relative to the settings file
-THEME =  "C:/Users/jacksee/AppData/Local/Continuum/anaconda/Lib/site-packages/pelican/themes/flex"
+THEME =  "C:\Users\jacksee\Documents\blog\themes\Flex2.4"
 
 TIMEZONE = 'America/Denver'
 #PATH = 'C:/Users/jacksee/blog'
