@@ -4,7 +4,7 @@ Modified: 2022-3-15 08:00
 
 My name is Jiefeng Sun, a PhD student at [Colorado State University](https://www.engr.colostate.edu/me/) in Mechanical Engineering since Aug, 2017 under the supervision of [Prof. Zhao](https://www.engr.colostate.edu/me/dr-jianguo-zhao/). My research focuses on design, modeling and control of soft robots and artificial muscles (high-energy-density small actuators). I earned my B.S. and M.S. in Mechanical Engineering respectively from Lanzhou University of Technology Lanzhou in 2014 and [Dalian University of Technology (DLUT)](http://en.dlut.edu.cn/) in 2017. 
 
-I am looking for a **postdoc position** in robotics field starting from Fall semester of 2022. Please find my [CV here]({static}/pdfs/CV_Jiefeng_Sun.pdf). Thanks! 
+I am looking for a **postdoc position** in robotics field starting from June of 2022. Please find my [CV here]({static}/pdfs/CV_Jiefeng_Sun.pdf). Thanks! 
 
 
 #### Research Areas
@@ -17,9 +17,8 @@ I am looking for a **postdoc position** in robotics field starting from Fall sem
 
 #### News
 
-- 4/15/2022 One paper on a fully passive gripper for perching and grasping of UAVs is accepted by Transactions on Mechatronics.
 - 2/1/2022 One paper on modeling TCA-driven soft robots is accepted by ACC conference.
-- 1/29/2022  One paper combining a suction cup and bistable maechanism for UAV perching onto a surface is accepted by ACC conference.
+- 1/29/2022  One paper combining a suction cup and bistable maechanism for UAV perching onto a surface is accepted by ICRA conference.
 - 09/01/2021 One paper on modeling Twisted-and-Coiled Actuators is published by Transactions on Robotics.
 
 #### Awards

@@ -1,15 +1,15 @@
 Title: Publication
 Date: 2020-05-18 08:00
-Modified: 2021-10-01 08:00
+Modified: 2022-04-01 08:00
 Category: Intro
 
  **[[Google Scholar](https://scholar.google.com/citations?user=fjUoHOsAAAAJ&hl=en)]**
 
 #### Journal Articles
 
-1. H.  Hsiao, **J. Sun**,  H.  Zhang,  and  J.  Zhao,  “A  mechanically  intelligent  and  passive  gripper for aerial perching and grasping,”IEEE/ASME Transactions on Mechatronics. [Accepted]
+1. H.  Hsiao, **J. Sun**,  H.  Zhang,  and  J.  Zhao,  “A  mechanically  intelligent  and  passive  gripper for aerial perching and grasping,”IEEE/ASME Transactions on Mechatronics. [Under Review]
 
-1. **J. Sun** and J. Zhao, “Physics-based modeling of twisted-and-coiled actuators using cosserat rod theory,” IEEE Transactions on Robotics, 2021 [[<u>PDF</u>]]({static}/pdfs/Physics-based_Modeling of Twisted and Coiled Actuators Using Cosserat Rod Theory.pdf) [[<u>Supporting Page</u>]]({filename}/category/TCA_TRO.md).
+1. J. Sun and J. Zhao, “Physics-based modeling of twisted-and-coiled actuators using cosserat rod theory,” IEEE Transactions on Robotics, vol. 38, no. 2, pp. 779–796, 2022, 2021 [[<u>PDF</u>]]({static}/pdfs/sun2022physics.pdf) [[<u>Supporting Page</u>]]({filename}/category/TCA_TRO.md).
 
 1. **J. Sun**, B. Tighe, Y. Liu, and J. Zhao, “Twisted-and-coiled actuators with free strokes enable soft robots with programmable motions,” Soft robotics, vol. 8, no. 2, pp. 213–225, 2021  [[<u>PDF</u>]]({static}/pdfs/sun2021twisted.pdf) [[<u>Video</u>]](https://youtu.be/M3MFRgYEnIk) [[<u>Supporting Material</u>]]({static}/pdfs/Programmable Motions SM.pdf) [News]: [CSU News](https://engr.source.colostate.edu/soft-robots-can-flex-artificial-muscles-made-from-sewing-thread/), [TechXplore](https://techxplore.com/news/2020-07-artificial-muscle-thread-enables-motions.html), [ElectronicDesign](https://www.electronicdesign.com/industrial-automation/article/21147106/electronic-design-coiled-conductivethread-actuators-eerily-emulate-muscle-motion). 
 
