@@ -1,7 +1,7 @@
 Title: How to speed up your code
 Date: 2020-08-24 08:00
 Modified: 2020-08-25 10:50
-Category: Research
+Category: Research Tricks & Tools
 
 1. Preallocate the memory. The prepared memory will save time on finding a new address. 
 

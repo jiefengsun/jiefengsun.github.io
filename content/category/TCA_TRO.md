@@ -1,14 +1,14 @@
 Title: TCA TRO
 Date: 2021-02-18 08:00
-Modified: 2020-03-1 08:00
-Category: Research
+Modified: 2021-10-1 08:00
+Category: Research Paper Support Info
 Tags: TRO
 
 ## **A General Framework for Physics-based Modeling of various Twisted-and-Coiled Actuators**
 
 ### Introduction
 
-This is the supporting page of the paper titled "Physics-based Modeling of Twisted-and-Coiled Actuators Using Cosserat Rod Theory" that is accepted and will be published on ** IEEE Transactions on Robotics**. You can download the preprint of the paper [here]({static}/pdfs/Physics-based_Modeling of Twisted and Coiled Actuators Using Cosserat Rod Theory.pdf)
+This is the supporting page of the paper titled "Physics-based Modeling of Twisted-and-Coiled Actuators Using Cosserat Rod Theory" that is accepted and will be published on ** IEEE Transactions on Robotics**. You can download the preprint of the paper [here]({static}/pdfs/sun2022physics.pdf)
 
 The purpose of this page is to help readers better understand our paper. It will be very helpful for readers who want to implement the simulation or use our model. 
 
@@ -19,8 +19,6 @@ It contains the following parts
 - Derivation using Matlab
 
 - Simulation tutorial and source code
-
-I have been studying TCAs for 4 years. This tutorial will summarize my theoritical study of the artificial muscle. 
 
 ### Supporting Multimedia
 
@@ -48,29 +46,8 @@ Some derivations are pretty lengthy, and derivations using Matlab are provided t
 
 - [Derive the curvatre and the torsion of a conical TCA]({static}/images/TRO/Conical_spiral.html)
 
-
-
-### Simulation Tutorials
-
-
-We provide a Tutorial to help the readers who want to understand the details of the simulation. It will be great helpful to realize the most of debugging time will be dealing with boundary conditions. 
-
-- The source code can be found in the following [Github repository](https://github.com/jiefengsun/TCA_TRO). I'm still updating the repository by adding some comments
-
-- For readers that do not have a Matlab environment can go to [CodeOcean for an online demo](https://codeocean.com/capsule/9470150/tree)
-
-- Here are the links for the tutorials. **(__Not posted yet__, the tutorials will be made public after the paper is published online. Check after Sep 2021)**
-
-	- [TCA statics using Cosserat rod model for a helical TCA]({filename}/catagory/statics_tutorial.md)
-	
-	- [TCA statics using Cosserat rod model for a Conical TCA]({filename}/catagory/simulate_a_Conical_TCA.md)
-	
-	- [TCA Dynamics using Cosserat rod model for a Conical TCA]()
-		
-	- [TCA statics using Love's Equation]()
-	
-	- [TCA statics using CST]()
-	
+- For readers who do not have a Matlab environment, please go to [CodeOcean for an online demo](https://codeocean.com/capsule/2199241/tree). Please email me for any questions!
+ 
 
 ### Want to Learn More about the Rod Model?
 

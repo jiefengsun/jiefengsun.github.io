@@ -76,3 +76,8 @@ Removed copyright in `flex.html`
 ####
 
 Change fonts in `variables.less`
+
+
+#### 
+I comment out the summary of the blog in category. 
+`<!-- {% set summarise = True %}-->`

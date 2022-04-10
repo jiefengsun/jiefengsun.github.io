@@ -1,7 +1,8 @@
 Title:Good Online Books
 Date: 2020-07-11 08:00
 Modified: 2020-07-25 10:50
-Category: Research
+Category:  Research Tricks & Tools
+
 #### Robotics
 1. [Robotics Simulation Toolboxes](https://petercorke.com/about/), Peter Corke
 	- Peter Corke is a specialist in Robitcs Vision and control and he has two MATLAB® Toolboxes (Robotics Toolbox, Machine Vision Toolbox for MATLAB) that are open and __free__:

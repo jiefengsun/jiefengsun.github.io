@@ -3,45 +3,50 @@ Date: 2020-05-18 08:00
 Modified: 2021-10-01 08:00
 Category: Intro
 
-#### **[[Google Scholar](https://scholar.google.com/citations?user=fjUoHOsAAAAJ&hl=en)]**
+ **[[Google Scholar](https://scholar.google.com/citations?user=fjUoHOsAAAAJ&hl=en)]**
 
-#### Soft Robotics & Artificial Muscle
-<figure>
-<img src="{static}/pdfs/Soft_Robotics_Arm_Actuated_By_TCA.gif" style="float:left; width:400px; padding-top:40px; padding-right:30px; padding-bottom:25px; padding-left:0px;">
-</figure>
+#### Journal Articles
+
+1. H.  Hsiao, **J. Sun**,  H.  Zhang,  and  J.  Zhao,  “A  mechanically  intelligent  and  passive  gripper for aerial perching and grasping,”IEEE/ASME Transactions on Mechatronics. [Accepted]
+
+1. **J. Sun** and J. Zhao, “Physics-based modeling of twisted-and-coiled actuators using cosserat rod theory,” IEEE Transactions on Robotics, 2021 [[<u>PDF</u>]]({static}/pdfs/Physics-based_Modeling of Twisted and Coiled Actuators Using Cosserat Rod Theory.pdf) [[<u>Supporting Page</u>]]({filename}/category/TCA_TRO.md).
+
+1. **J. Sun**, B. Tighe, Y. Liu, and J. Zhao, “Twisted-and-coiled actuators with free strokes enable soft robots with programmable motions,” Soft robotics, vol. 8, no. 2, pp. 213–225, 2021  [[<u>PDF</u>]]({static}/pdfs/sun2021twisted.pdf) [[<u>Video</u>]](https://youtu.be/M3MFRgYEnIk) [[<u>Supporting Material</u>]]({static}/pdfs/Programmable Motions SM.pdf) [News]: [CSU News](https://engr.source.colostate.edu/soft-robots-can-flex-artificial-muscles-made-from-sewing-thread/), [TechXplore](https://techxplore.com/news/2020-07-artificial-muscle-thread-enables-motions.html), [ElectronicDesign](https://www.electronicdesign.com/industrial-automation/article/21147106/electronic-design-coiled-conductivethread-actuators-eerily-emulate-muscle-motion). 
+
+1. Y. Tang, Y. Chi, **J. Sun**, T.-H. Huang, O. H. Maghsoudi, A. Spence, J. Zhao, H. Su, and J. Yin, “Leveraging elastic instabilities for amplified performance: Spine-inspired high-speed and high-force soft robots,” **Science advances**, vol. 6, no. 19, p. eaaz6912, 2020 [[<u>PDF</u>]]({static}/pdfs/tang2020leveraging.pdf) [[<u>Video</u>]](https://youtu.be/Z5QAwAOxORo). [News]: [Engadget](https://www.engadget.com/soft-cheetah-robot-flexible-spine-ncsu-180005178.html?guce_referrer=aHR0cHM6Ly9qaWV5aW4ud29yZHByZXNzLm5jc3UuZWR1L3B1YmxpY2F0aW9ucy8&guce_referrer_sig=AQAAAGpvjcXKvjyCsTniIl2WgrMVSRGl-b7m0TAFvNxGXgJ0sMgAtxwoTmFe757_Uj0PseriC8bNhjmelDRcisXzviyhZOF_pVG_gEzUM0U8W_UWIPC67NlHFDWn8MxW-y8viZeCuC3y97YV4ImrEy7jJLTCfjlSUI1HN4gEwHWVk-od&guccounter=2), [New Altas](https://newatlas.com/robotics/leap-cheetah-soft-bodied-robot/), [NSF](https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=300598&org=NSF&from=news), [Tech Briefs](https://www.techbriefs.com/component/content/article/tb/stories/blog/36930)
+
+1. **J. Sun** and J. Zhao, “An adaptive walking robot with reconfigurable mechanisms using shape morphing joints,” IEEE Robotics and Automation Letters (RAL), vol. 4, no. 2, pp. 724–731, 2019.[[<u>PDF</u>]]({static}/pdfs/sun2019adaptive.pdf) [[<u>Video</u>]](https://youtu.be/igZG-D9EWXI) [News]: [TechXplore](https://techxplore.com/news/2019-02-shape-morphing-joints-small-robots-ace.html), [IEEE Spectrum](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/robot-melts-its-bones-to-change-how-it-walks), [Futurism](https://futurism.com/the-byte/robot-melt-bones-avoid-obstacles), [High Tech Deck](https://hightechdeck.com/adaptive-robot-melts-solidifies-its-bones-on-the-fly-to-avoid-obstacles/)
+
+1. B. Pawlowski, **J. Sun**, J. Xu, Y. Liu, and J. Zhao, “Modeling of soft robots actuated by twisted1. and-coiled actuators,” IEEE/ASME Transactions on Mechatronics, vol. 24, no. 1, pp. 5–15, 2018. [[<u>PDF</u>]]({static}/pdfs/pawlowski2018modeling.pdf).
+
+#### Conference Proceedings 
+1. **J. Sun** and J. Zhao, “Modeling and simulation of soft robots driven by artificial muscles: an example using twisted-and-coiled actuators,” in 2022 American Control Conference ACC). Invited Paper[Accepted].[[<u>PDF</u>]]({static}/pdfs/sun2022modeling.pdf) [[<u>Video</u>]](https://youtu.be/FfRRqfR8YXw).
+ 
+1. H. Hsiao, F. Wu  **J. Sun**, and J. Zhao, “A novel passive mechanism for flying robots to perchonto surfaces,” in2022 IEEE International Conference on Robotics and Automation(ICRA).IEEE, 2022, [Accepted].[[<u>PDF</u>]]({static}/pdfs/Hsiao2022novel.pdf) [[<u>Video</u>]](https://youtu.be/oeuBp__kTSs).
+ 
+1. **J. Sun**, B. Tighe, and J. Zhao, “Tuning the energy landscape of soft robots for fast and strong motion,” in 2020 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2020, pp. 10 082–10 088.  [[<u>PDF</u>]]({static}/pdfs/sun2020tuning.pdf) [[<u>Video</u>]](https://youtu.be/ltEVEZvpb-k).
+
+1. **J. Sun** and J. Zhao, “Integrated actuation and self-sensing for twisted-and-coiled actuators with applications to innervated soft robots,” in 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2020, pp. 8795–8800 [[<u>PDF</u>]]({static}/pdfs/sun2020integrated.pdf). [[<u>Video</u>]](https://youtu.be/WyPtp2IQqPo).
+
+1. H. Zhang, **J. Sun**, and J. Zhao, “Compliant bistable gripper for aerial perching and grasping,” in 2019 International Conference on Robotics and Automation (ICRA). IEEE, 2019, pp. 1248–1253.[[<u>PDF</u>]]({static}/pdfs/zhang2019compliant.pdf) [[<u>Video</u>]](https://youtu.be/xVknr4ocNZA).
+
+1. **J. Sun**, B. Pawlowski, and J. Zhao, “Soft manipulators with programmable motion using twisted-and-coiled actuators (conference presentation),” in Electroactive Polymer Actuators and Devices (EAPAD) XXI, vol. 10966. International Society for Optics and Photonics, 2019, p. 109660Q. [[<u>PDF</u>]]({static}/pdfs/SPIE_JiefengSun.pdf) [[<u>Video</u>]](https://youtu.be/vGBdW0blAe8).
+
+1. B. Pawlowski, **J. Sun**, and J. Zhao, “Dynamic modeling of soft manipulators actuated by twisted-and-coiled actuators,” in 2018 IEEE Conference on Decision and Control (CDC). IEEE, 2018, pp. 409–414.[[<u>PDF</u>]]({static}/pdfs/pawlowski2018dynamic.pdf) 
 
 
-- Sun J, & Zhao J.(2021).Physics-based Modeling of Twisted-and-Coiled Actuators Using Cosserat Rod Theory. IEEE Transactions on Robotics (TRO). Accepted [__PDF__]({static}/pdfs/Physics-based_Modeling of Twisted and Coiled Actuators Using Cosserat Rod Theory.pdf)
-
-- Sun J, & Zhao J.(2020). Integrated Actuation and Self-Sensing for Twisted-and-Coiled Actuators with Applications to Innervated Soft Robots. IROS. [__PDF__]({static}/pdfs/Integrated Actuation and Self-Sensing for Twisted-and-Coiled Actuators with Applications to Innervated Soft Robots.pdf) 
-
-- Sun J, Tigh B, & Zhao J. (2020). Twisted-and-Coiled Actuators with Free Strokes Enable Soft Robots with Programmable Motions. Soft Robotics. [__PDF__]({static}/pdfs/Twisted-and-Coiled Actuators with Free Strokes Enable Soft Robots with Programmable Motions.pdf) [__News__]: [CSU News](https://engr.source.colostate.edu/soft-robots-can-flex-artificial-muscles-made-from-sewing-thread/), [TechXplore](https://techxplore.com/news/2020-07-artificial-muscle-thread-enables-motions.html)
+1. **J. Sun**, B. Pawlowski, and J. Zhao, “Embedded and controllable shape morphing with twisted1. and-coiled actuators,” in 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems IROS). IEEE, 2018, pp. 5912–5917.[[<u>PDF</u>]]({static}/pdfs/sun2018embedded.pdf).[[<u>Video</u>]](https://youtu.be/RK1Jnvfy6J4). [(Best Student Paper Award, Finalists)](https://www.iros2018.org/awards).
 
 
-- Tang Y, Chi Y, Sun J, Tzu-Hao Huang, Omid H. Maghsoudi, Andrew Spence, Jianguo Zhao, Hao Su, Jie Yin (2020), "Leveraging Elastic instabilities for Amplified Performance (LEAP): Spine-inspired high-speed and high-force soft robots", Science Advances. [__PDF__]({static}/pdfs/Tang_2020_Leveraging elastic instabilities for amplified performance Spine-inspired high-speed and high-force soft robots.pdf) [__News__]: [Engadget](https://www.engadget.com/soft-cheetah-robot-flexible-spine-ncsu-180005178.html?guce_referrer=aHR0cHM6Ly9qaWV5aW4ud29yZHByZXNzLm5jc3UuZWR1L3B1YmxpY2F0aW9ucy8&guce_referrer_sig=AQAAAGpvjcXKvjyCsTniIl2WgrMVSRGl-b7m0TAFvNxGXgJ0sMgAtxwoTmFe757_Uj0PseriC8bNhjmelDRcisXzviyhZOF_pVG_gEzUM0U8W_UWIPC67NlHFDWn8MxW-y8viZeCuC3y97YV4ImrEy7jJLTCfjlSUI1HN4gEwHWVk-od&guccounter=2), [New Altas](https://newatlas.com/robotics/leap-cheetah-soft-bodied-robot/), [NSF](https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=300598&org=NSF&from=news), [Tech Briefs](https://www.techbriefs.com/component/content/article/tb/stories/blog/36930)
-- Sun J, Tighe B, & Zhao J (2020). Tuning the Energy Landscape of Soft Robots for Fast and Strong Motion. 2020 International Conference on Robotics and Automation (ICRA), (IEEE), In press. [__PDF__]({static}/pdfs/Tuning the Energy Landscape of Soft Robots for Fast and Strong Motion.pdf)
-
-- Sun J, Pawlowski B, & Zhao J (2019). Soft manipulators with programmable motion using twisted-and-coiled actuators (Conference Presentation). Electroactive Polymer Actuators and Devices (EAPAD) XXI, (International Society for Optics and Photonics), p 109660Q. [__PDF__]({static}/pdfs/SPIE_JiefengSun.pdf)
-
-- Sun J, Pawlowski B, & Zhao J (2018). Embedded and Controllable Shape Morphing with Twisted-and-Coiled Actuators. 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), (IEEE), pp 5912-5917.[__PDF__]({static}/pdfs/Embedded and Controllable Shape Morphing with Twisted-And-Coiled Actuator.pdf)
-
-- Pawlowski B, Sun J, & Zhao J (2018). Dynamic Modeling of Soft Manipulators Actuated by Twisted-and-Coiled Actuators. 2018 IEEE Conference on Decision and Control (CDC), (IEEE), pp 409-414. [__PDF__]({static}/pdfs/Dynamic Modeling of Soft Manipulators Actuated by Twisted-and-Coiled Actuators.pdf)
-
-- Pawlowski B, Sun J, Xu J, Liu Y, & Zhao J (2018). Modeling of soft robots actuated by twisted-and-coiled actuators. IEEE/ASME Transactions on Mechatronics 24(1):5-15. [__PDF__]({static}/pdfs/Modeling of Soft Robots Actuated by Twisted-and-Coiled Actuators.pdf)
-
-#### Reconfigurable Robots
-
-- Sun J & Zhao J (2019) An adaptive walking robot with reconfigurable mechanisms using shape morphing joints. IEEE Robotics and Automation Letters 4(2):724-731.[__PDF__]({static}/pdfs/An Adaptive Walking Robot With Reconfigurable Mechanisms Using Shape Morphing Joints.pdf) [__News__]: [TechXplore](https://techxplore.com/news/2019-02-shape-morphing-joints-small-robots-ace.html), [IEEE Spectrum](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/robot-melts-its-bones-to-change-how-it-walks), [Futurism](https://futurism.com/the-byte/robot-melt-bones-avoid-obstacles), [High Tech Deck](https://hightechdeck.com/adaptive-robot-melts-solidifies-its-bones-on-the-fly-to-avoid-obstacles/)
-
-- Zhang H, Sun J, & Zhao J (2019) Compliant Bistable Gripper for Aerial Perching and Grasping. 2019 International Conference on Robotics and Automation (ICRA), (IEEE), pp 1248-1253.[__PDF__]({static}/pdfs/Zhang_2019_Compliant Bistable Gripper for Aerial Perching and Grasping.pdf)
 
 #### Patent
 
-- Zhang, Haijie and Zhao, Jianguo & **Sun, Jiefeng**. Compliant bistable gripper for aerial perching and grasping. (Granted, 2020) [__CSU Venture__](https://csuventures.org/project/compliant-bistable-gripper-for-aerial-robot-perching-and-grasping/)
+- Zhang, Haijie and Zhao, Jianguo & **Sun, Jiefeng**. Compliant bistable gripper for aerial perching and grasping. (Granted, 2020)[[<u>PDF</u>]]({static}/pdfs/zhang2020compliant_patent.pdf) [__CSU Venture__](https://csuventures.org/project/compliant-bistable-gripper-for-aerial-robot-perching-and-grasping/)
 
 
-<iframe width="420" height="236" src="https://www.youtube.com/embed/RK1Jnvfy6J4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="420" height="236" src="https://www.youtube.com/embed/igZG-D9EWXI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="420" height="236" src="https://www.youtube.com/embed/ltEVEZvpb-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="420" height="236" src="https://www.youtube.com/embed/WyPtp2IQqPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
 

@@ -1,7 +1,7 @@
 Title: Software Recommendation
 Date: 2020-08-1 08:00
 Modified: 2020-08-25 10:50
-Category: Research
+Category: Research Tricks & Tools
 
 
 - 7-zip

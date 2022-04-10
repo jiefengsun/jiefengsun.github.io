@@ -1,7 +1,7 @@
 Title: Numerical Conventions in Python and Matlab
 Date: 2020-08-3 08:00
 Modified: 2020-08-03 08:00
-Category: Research
+Category: Research Tricks & Tools
 
 ### Python mesh conventions
 

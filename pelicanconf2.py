@@ -9,21 +9,19 @@ SITENAME = 'Jiefeng personal website'
 # SITETITLE = 'Flex'
 SITESUBTITLE = 'Jiefeng Sun, PhD student'
 SITEDESCRIPTION = 'Robotics and Artificial Muscle'
-SUMMARY_MAX_LENGTH = 20
+SUMMARY_MAX_LENGTH = 0
 
 PATH = 'content'
 SITELOGO = '/images/jiefeng.jpg'
 FAVICON = 'C:/Users/jacksee/Documents/blog/content/images/favicon.ico'
 BROWSER_COLOR = '#333333'
 PYGMENTS_STYLE = 'github'
-
 LOAD_CONTENT_CACHE = False
 ROBOTS = 'index, follow'
-
 OUTPUT_PATH = 'output'
 
 # Specify a customized theme, via path relative to the settings file
-THEME =  "C:/Users/jacksee/Documents/blog/themes/Flex2.4"
+THEME =  'C:/Users/jacksee/Documents/blog/themes/Flex2.4'
 
 TIMEZONE = 'America/Denver'
 
@@ -56,11 +54,13 @@ SOCIAL = (
 )
 
 MENUITEMS = (('Blog Posts', '/categories.html'),)
+
+
 DISPLAY_PAGES_ON_MENU = True
 PAGES_SORT_ATTRIBUTE = True
 
 COPYRIGHT_YEAR = datetime.now().year
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 10
 
 #DISQUS_SITENAME = "flex-pelican"
 #ADD_THIS_ID = 'ra-55adbb025d4f7e55'
@@ -71,7 +71,7 @@ STATIC_PATHS = ['images','pdfs',] # ,'images/TRO',
 
 USE_LESS = True
 
-PLUGIN_PATHS = ['C:/Users/jacksee/Documents/blog/plugins']
+PLUGIN_PATHS = ['C:/ProgramData/Anaconda3/Lib/site-packages/pelican/plugins']
 PLUGINS = [ 'render_math']
 
 ENCRYPT_CONTENT = {

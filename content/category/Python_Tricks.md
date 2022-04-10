@@ -1,7 +1,7 @@
 Title: Python Tricks
 Date: 2021-08-18 08:00
 Modified: 2020-10-1 08:00
-Category: Research
+Category: Research Tricks & Tools
 
 
 <!---Password: jiefeng!--->

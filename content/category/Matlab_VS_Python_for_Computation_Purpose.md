@@ -1,8 +1,8 @@
 Title: Matlab VS Python for Computation Purpose
 Date: 2020-05-18 08:00
 Modified: 2020-06-15 08:00
-Category: Research
-Password: jiefeng
+Category: Research Tricks & Tools
+
 
 ## Basic Decision
 
