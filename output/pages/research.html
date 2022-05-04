@@ -10,17 +10,17 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet/less" type="text/css" href="https://jiefengsun.github.io/theme/stylesheet/style.less">
+    <link rel="stylesheet/less" type="text/css" href="http://localhost:8000/theme/stylesheet/style.less">
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
 
 
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
-          href="https://jiefengsun.github.io/theme/pygments/github.min.css">
+          href="http://localhost:8000/theme/pygments/github.min.css">
 
 
-  <link rel="stylesheet" type="text/css" href="https://jiefengsun.github.io/theme/font-awesome/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="https://jiefengsun.github.io/theme/font-awesome/css/brands.css">
-  <link rel="stylesheet" type="text/css" href="https://jiefengsun.github.io/theme/font-awesome/css/solid.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/font-awesome/css/solid.css">
 
 
 
@@ -51,13 +51,13 @@
     <meta name="msapplication-TileColor" content="#333333">
 
     <meta name="author" content="Jiefeng Sun" />
-    <meta name="description" content="Robotics, Actuation, and Modeling" />
+    <meta name="description" content="Robotics and Artificial Muscle" />
 <meta property="og:site_name" content="Jiefeng personal website"/>
 <meta property="og:type" content="blog"/>
 <meta property="og:title" content="Jiefeng personal website"/>
-<meta property="og:description" content="Robotics, Actuation, and Modeling"/>
+<meta property="og:description" content="Robotics and Artificial Muscle"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://jiefengsun.github.io"/>
+<meta property="og:url" content="http://localhost:8000"/>
 <meta property="og:image" content="/images/jiefeng.jpg">
 
 
@@ -68,12 +68,12 @@
 <body class="light-theme">
   <aside>
     <div>
-      <a href="https://jiefengsun.github.io">
+      <a href="http://localhost:8000">
         <img src="/images/jiefeng.jpg" alt="" title="">
       </a>
 
       <h1>
-        <a href="https://jiefengsun.github.io"></a>
+        <a href="http://localhost:8000"></a>
       </h1>
 
 <p>Jiefeng Sun, PhD student</p>
@@ -84,25 +84,29 @@
 
 
 
-
-		  
 		  
               <li>
                 <a target="_self"
-                   href="https://jiefengsun.github.io/pages/about.html#about">
+                   href="http://localhost:8000/pages/about.html#about">
                   About
                 </a>
               </li>
               <li>
                 <a target="_self"
-                   href="https://jiefengsun.github.io/pages/publication.html#publication">
+                   href="http://localhost:8000/pages/publication.html#publication">
                   Publication
                 </a>
               </li>
               <li>
                 <a target="_self"
-                   href="https://jiefengsun.github.io/pages/research.html#research">
+                   href="http://localhost:8000/pages/research.html#research">
                   Research
+                </a>
+              </li>
+              <li>
+                <a target="_self"
+                   href="http://localhost:8000/pages/album.html#album">
+                  Album
                 </a>
               </li>
 		  		   
@@ -128,6 +132,9 @@
       </ul>
     </div>
 
+	
+
+
   </aside>
   <main>
 
@@ -144,7 +151,7 @@
 <p>My doctoral research focuses on design and control of soft robots with miniature size and multifunction. Such robots fall into the large framework called biologically inspired robotics. I have made contributions to both the design and control of biologically inspired robots.</p>
 <p><strong>Soft Robots Driven by Twisted-and-Coiled Artificial Muscle:</strong></p>
 <p>I have been developing low-cost, strong, and light-weight artificial muscle (twisted and coiled actuators) for use in miniature soft robots. The endeavor includes a novel coil fabrication technique of the artificial muscle, and a robotic arm driven by the artificial muscle that was the world’s first robotic arm driven by the actuator. The robot received wide media coverage such as CSU Source and TechXplor. The related results have been selected as the best student paper finalist (6 from more than 2700 submissions from 62 countries) in the prestigious IROS conference.  Physics-based modeling and control methods based on self-sensing are further developed and published on top journals in the field of robotics. </p>
-<p><center><figure> <img src="https://jiefengsun.github.io/pdfs/Soft_Robotics_Arm_Actuated_By_TCA.gif" style="width:420px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;">
+<p><center><figure> <img src="http://localhost:8000/pdfs/Soft_Robotics_Arm_Actuated_By_TCA.gif" style="width:420px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;">
  
 <figcaption>Figure 1.igure 1 (a) Twisted-and-Coiled artificial muscle with large stroke. (b) Soft robotics arm driven by the artificial muscle picks up a PCB and corresponding physics-based simulation.  (c) (d) </figcaption></p>
 <p></figure> </center></p>
@@ -158,7 +165,11 @@
 <p>&copy; 2022 </p>
 <p>
 Built with <a href="http://getpelican.com" target="_blank">Pelican</a>
-</p>    </footer>
+
+
+</p>
+	  
+    </footer>
   </main>
 
 
@@ -169,12 +180,15 @@ Built with <a href="http://getpelican.com" target="_blank">Pelican</a>
   "@context" : "http://schema.org",
   "@type" : "Blog",
   "name": " Jiefeng personal website ",
-  "url" : "https://jiefengsun.github.io",
+  "url" : "http://localhost:8000",
   "image": "/images/jiefeng.jpg",
-  "description": "Robotics, Actuation, and Modeling"
+  "description": "Robotics and Artificial Muscle"
 }
 </script>
 
+
+  
+  
 
 </body>
 </html>

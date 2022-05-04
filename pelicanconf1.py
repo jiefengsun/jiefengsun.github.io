@@ -57,7 +57,7 @@ MENUITEMS = (('Blog Posts', '/categories.html'),)
 
 
 DISPLAY_PAGES_ON_MENU = True
-PAGES_SORT_ATTRIBUTE = True
+PAGES_SORT_ATTRIBUTE = = 'sortorder'
 
 COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 5

@@ -196,8 +196,6 @@
           {%- endif %}
 
           {% if DISPLAY_PAGES_ON_MENU %}
-
-		  
 		  
             {% for page in pages %}
               <li>
@@ -245,6 +243,9 @@
         (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
     {% endif %}
+	
+
+
   </aside>
   <main>
     {% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.ads.main_menu %}
@@ -267,6 +268,7 @@
       {% else %}
         {% include "partial/copyright.html" %}
       {% endif %}
+	  
     </footer>
   </main>
 
@@ -297,5 +299,8 @@
   {% endif %}
 
   {% block additional_js %}{% endblock %}
+  
+  
+
 </body>
 </html>

@@ -35,6 +35,7 @@ DATE_FORMATS = {
 }
 PAGE_EXCLUDES = ['/images/TRO']
 ARTICLE_EXCLUDES = ['/images/TRO']
+
 READERS = {'html': None}
 FEED_ALL_ATOM =  None #'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None #'feeds/%s.atom.xml'
@@ -57,7 +58,7 @@ MENUITEMS = (('Blog Posts', '/categories.html'),)
 
 
 DISPLAY_PAGES_ON_MENU = True
-PAGES_SORT_ATTRIBUTE = True
+PAGES_SORT_ATTRIBUTE = 'sortorder'
 
 COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 10
