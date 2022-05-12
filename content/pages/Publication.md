@@ -8,7 +8,7 @@ sortorder: 03
 
 #### Journal Articles
 
-1. H.  Hsiao, **J. Sun**,  H.  Zhang,  and  J.  Zhao,  “A  mechanically  intelligent  and  passive  gripper for aerial perching and grasping,”IEEE/ASME Transactions on Mechatronics. [Under Review]
+1. H.  Hsiao, **J. Sun**,  H.  Zhang,  and  J.  Zhao,  “A  mechanically  intelligent  and  passive  gripper for aerial perching and grasping,”IEEE/ASME Transactions on Mechatronics. [Accepted] [[<u>PDF</u>]]({static}/pdfs/hsiao2022mech.pdf) [[<u>Video</u>]](https://www.youtube.com/watch?v=HrISGcZqgPs&feature=youtu.be). 
 
 1. J. Sun and J. Zhao, “Physics-based modeling of twisted-and-coiled actuators using cosserat rod theory,” IEEE Transactions on Robotics, vol. 38, no. 2, pp. 779–796, 2022, 2021 [[<u>PDF</u>]]({static}/pdfs/sun2022physics.pdf) [[<u>Supporting Page</u>]]({filename}/category/TCA_TRO.md).
 

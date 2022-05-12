@@ -2,7 +2,6 @@
 # this is the new site
 
 from datetime import datetime
-LOAD_CONTENT_CACHE = False
 AUTHOR = 'Jiefeng Sun'
 SITEURL =  'https://jiefengsun.github.io' #
 SITENAME = 'Jiefeng personal website'
@@ -55,9 +54,9 @@ SOCIAL = (
 
 MENUITEMS = (('Blog Posts', '/categories.html'),)
 
-
+DELETE_OUTPUT_DIRECTORY = True
 DISPLAY_PAGES_ON_MENU = True
-PAGES_SORT_ATTRIBUTE = = 'sortorder'
+PAGES_SORT_ATTRIBUTE = 'sortorder'
 
 COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 5

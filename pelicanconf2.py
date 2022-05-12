@@ -2,7 +2,6 @@
 # this is the new site
 
 from datetime import datetime
-LOAD_CONTENT_CACHE = False
 AUTHOR = 'Jiefeng Sun'
 SITEURL =  'http://localhost:8000'   # 'https://jiefengsun.github.io' #
 SITENAME = 'Jiefeng personal website'
@@ -47,6 +46,8 @@ USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
 HOME_HIDE_TAGS = True
 GOOGLE_ANALYTICS = True
+
+DELETE_OUTPUT_DIRECTORY = True
 
 SOCIAL = (
     ('github', 'https://github.com/jiefengsun'),

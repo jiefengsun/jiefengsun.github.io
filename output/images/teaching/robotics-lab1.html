@@ -1,0 +1,2322 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="robotics-lab1_files/filelist.xml">
+<link rel=Edit-Time-Data href="robotics-lab1_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Microsoft Word - LAB 1 - Intro to MATLAB_2018</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Jianguo Zhao</o:Author>
+  <o:LastAuthor>Sun,Jiefeng</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>100</o:TotalTime>
+  <o:Created>2022-05-12T03:23:00Z</o:Created>
+  <o:LastSaved>2022-05-12T03:23:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>1184</o:Words>
+  <o:Characters>6749</o:Characters>
+  <o:Company>Colorado State University</o:Company>
+  <o:Lines>56</o:Lines>
+  <o:Paragraphs>15</o:Paragraphs>
+  <o:CharactersWithSpaces>7918</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:CustomDocumentProperties>
+  <o:Created dt:dt="date">2018-08-22</o:Created>
+  <o:Creator dt:dt="string">PScript5.dll Version 5.2.2</o:Creator>
+  <o:LastSaved dt:dt="date">2022-01-16</o:LastSaved>
+ </o:CustomDocumentProperties>
+</xml><![endif]-->
+<link rel=themeData href="robotics-lab1_files/themedata.thmx">
+<link rel=colorSchemeMapping href="robotics-lab1_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridHorizontalSpacing>5.5 pt</w:DrawingGridHorizontalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>2</w:DisplayHorizontalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:ULTrailSpace/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseWord2010TableStyleRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:DocumentVariables>
+   <w:__Grammarly_42____i>H4sIAAAAAAAEAKtWckksSQxILCpxzi/NK1GyMqwFAAEhoTITAAAA</w:__Grammarly_42____i>
+   <w:__Grammarly_42___1>H4sIAAAAAAAEAKtWcslP9kxRslIyNDayMDO3sDQ1MbQwNzU3MjVV0lEKTi0uzszPAymwrAUAj1vWdCwAAAA=</w:__Grammarly_42___1>
+  </w:DocumentVariables>
+  <w:DoNotOptimizeForBrowser/>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:\5B8B\4F53;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	mso-pagination:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;
+	mso-fareast-font-family:Cambria;
+	mso-bidi-font-family:Cambria;
+	mso-fareast-language:EN-US;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:5.95pt;
+	line-height:14.05pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	mso-outline-level:1;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;
+	mso-fareast-font-family:Cambria;
+	mso-bidi-font-family:Cambria;
+	mso-font-kerning:0pt;
+	mso-fareast-language:EN-US;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Comment Text Char";
+	margin:0in;
+	mso-pagination:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Cambria",serif;
+	mso-fareast-font-family:Cambria;
+	mso-bidi-font-family:Cambria;
+	mso-fareast-language:EN-US;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Header Char";
+	margin:0in;
+	mso-pagination:none;
+	tab-stops:center 3.25in right 6.5in;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;
+	mso-fareast-font-family:Cambria;
+	mso-bidi-font-family:Cambria;
+	mso-fareast-language:EN-US;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Footer Char";
+	margin:0in;
+	mso-pagination:none;
+	tab-stops:center 3.25in right 6.5in;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;
+	mso-fareast-font-family:Cambria;
+	mso-bidi-font-family:Cambria;
+	mso-fareast-language:EN-US;}
+span.MsoCommentReference
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-priority:1;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:5.95pt;
+	mso-pagination:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Cambria",serif;
+	mso-fareast-font-family:Cambria;
+	mso-bidi-font-family:Cambria;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	mso-themecolor:hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"Comment Text";
+	mso-style-link:"Comment Subject Char";
+	mso-style-next:"Comment Text";
+	margin:0in;
+	mso-pagination:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Cambria",serif;
+	mso-fareast-font-family:Cambria;
+	mso-bidi-font-family:Cambria;
+	mso-fareast-language:EN-US;
+	font-weight:bold;}
+span.MsoPlaceholderText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	color:gray;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:1;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:59.95pt;
+	text-indent:-.25in;
+	mso-pagination:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;
+	mso-fareast-font-family:Cambria;
+	mso-bidi-font-family:Cambria;
+	mso-fareast-language:EN-US;}
+p.TableParagraph, li.TableParagraph, div.TableParagraph
+	{mso-style-name:"Table Paragraph";
+	mso-style-priority:1;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin:0in;
+	mso-pagination:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;
+	mso-fareast-font-family:Cambria;
+	mso-bidi-font-family:Cambria;
+	mso-fareast-language:EN-US;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Comment Text";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Cambria",serif;
+	mso-ascii-font-family:Cambria;
+	mso-fareast-font-family:Cambria;
+	mso-hansi-font-family:Cambria;
+	mso-bidi-font-family:Cambria;}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"Comment Text Char";
+	mso-style-link:"Comment Subject";
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Cambria",serif;
+	mso-ascii-font-family:Cambria;
+	mso-fareast-font-family:Cambria;
+	mso-hansi-font-family:Cambria;
+	mso-bidi-font-family:Cambria;
+	font-weight:bold;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Header;
+	font-family:"Cambria",serif;
+	mso-ascii-font-family:Cambria;
+	mso-fareast-font-family:Cambria;
+	mso-hansi-font-family:Cambria;
+	mso-bidi-font-family:Cambria;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Footer;
+	font-family:"Cambria",serif;
+	mso-ascii-font-family:Cambria;
+	mso-fareast-font-family:Cambria;
+	mso-hansi-font-family:Cambria;
+	mso-bidi-font-family:Cambria;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	mso-pagination:none;
+	text-autospace:none;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("robotics-lab1_files/header.html") fs;
+	mso-footnote-continuation-separator:url("robotics-lab1_files/header.html") fcs;
+	mso-footnote-continuation-notice:url("robotics-lab1_files/header.html") fcn;
+	mso-endnote-separator:url("robotics-lab1_files/header.html") es;
+	mso-endnote-continuation-separator:url("robotics-lab1_files/header.html") ecs;
+	mso-endnote-continuation-notice:url("robotics-lab1_files/header.html") ecn;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:68.0pt 61.0pt 61.0pt 66.0pt;
+	mso-header-margin:0in;
+	mso-footer-margin:51.8pt;
+	mso-footer:url("robotics-lab1_files/header.html") f1;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:478117330;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1838909236 1104162708 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:23.95pt;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:59.95pt;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:95.95pt;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:131.95pt;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:167.95pt;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:203.95pt;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:239.95pt;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:275.95pt;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:311.95pt;
+	text-indent:-9.0pt;}
+@list l1
+	{mso-list-id:1529177571;
+	mso-list-type:hybrid;
+	mso-list-template-ids:703379044 -1545044596 -245336578 210006062 467560476 1425701214 2069159310 1111252564 591140594 -1151278348;}
+@list l1:level1
+	{mso-level-text:"%1\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:60.0pt;
+	text-indent:-.25in;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria",serif;
+	mso-fareast-font-family:Cambria;
+	mso-bidi-font-family:Cambria;
+	mso-font-width:100%;
+	mso-ansi-font-weight:normal;
+	mso-bidi-font-weight:normal;
+	mso-ansi-font-style:normal;
+	mso-bidi-font-style:normal;}
+@list l1:level2
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:•;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:102.5pt;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:•;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:145.0pt;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:•;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:187.5pt;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:•;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:230.0pt;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:•;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:272.5pt;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:•;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:315.0pt;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:•;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:357.5pt;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:•;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:400.0pt;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:1631011159;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1745174932 -1809830830 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-text:"%1\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:24.0pt;
+	text-indent:-.25in;}
+@list l2:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:60.0pt;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:96.0pt;
+	text-indent:-9.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:132.0pt;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:204.0pt;
+	text-indent:-9.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:240.0pt;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:276.0pt;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:312.0pt;
+	text-indent:-9.0pt;}
+@list l3
+	{mso-list-id:1749038544;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1833582646 1730578368 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:59.95pt;
+	text-indent:-.25in;}
+@list l3:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:95.95pt;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:131.95pt;
+	text-indent:-9.0pt;}
+@list l3:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:167.95pt;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:203.95pt;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:239.95pt;
+	text-indent:-9.0pt;}
+@list l3:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:275.95pt;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:311.95pt;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:347.95pt;
+	text-indent:-9.0pt;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-pagination:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2051"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="2"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in;word-wrap:
+break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoBodyText style='margin-top:6.05pt;margin-right:0in;margin-bottom:
+0in;margin-left:6.0pt;margin-bottom:.0001pt'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="image1.png" o:spid="_x0000_s2050" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:308.25pt;
+ margin-top:-31.3pt;width:179.35pt;height:76.8pt;z-index:251658240;
+ visibility:visible;mso-wrap-style:square;mso-width-percent:0;
+ mso-height-percent:0;mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;
+ mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:0;
+ mso-position-horizontal:absolute;mso-position-horizontal-relative:text;
+ mso-position-vertical:absolute;mso-position-vertical-relative:text;
+ mso-width-percent:0;mso-height-percent:0;mso-width-relative:page;
+ mso-height-relative:page'>
+ <v:imagedata src="robotics-lab1_files/image001.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+relative;z-index:251658240'><span style='left:0px;position:absolute;left:411px;
+top:-42px;width:239px;height:102px'><img width=239 height=102
+src="robotics-lab1_files/image002.gif" v:shapes="image1.png"></span></span><![endif]>MECH<span
+style='letter-spacing:-.1pt'> </span>564<span style='letter-spacing:-.15pt'> </span>–
+Laboratory<span style='letter-spacing:-.05pt'> </span>1</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><i style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt'>“Introduction<span style='letter-spacing:-.1pt'> </span>to<span
+style='letter-spacing:-.1pt'> </span>MATLAB and Matrix Manipulation™”</span></i></b><span
+style='font-size:10.0pt;mso-bidi-font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.35pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><span style='font-size:9.0pt;mso-bidi-font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></i></b></p>
+
+<h1 style='margin-top:5.0pt'>Introduction:</h1>
+
+<p class=MsoBodyText style='margin-right:10.7pt;text-align:justify;text-justify:
+inter-ideograph;text-indent:.5in'>MATLAB™<span style='letter-spacing:.05pt'> </span>is<span
+style='letter-spacing:.05pt'> </span>a<span style='letter-spacing:.05pt'> </span>mathematical<span
+style='letter-spacing:.05pt'> </span>programming<span style='letter-spacing:
+.05pt'> </span>language<span style='letter-spacing:.05pt'> </span>and<span
+style='letter-spacing:.05pt'> </span>environment<span style='letter-spacing:
+.05pt'> </span>that<span style='letter-spacing:.05pt'> </span>has<span
+style='letter-spacing:.05pt'> </span>become<span style='letter-spacing:-.2pt'> </span>one<span
+style='letter-spacing:-.15pt'> </span>of<span style='letter-spacing:-.2pt'> </span>the<span
+style='letter-spacing:-.15pt'> </span>standard<span style='letter-spacing:-.25pt'>
+</span>tools<span style='letter-spacing:-.15pt'> </span>of<span
+style='letter-spacing:-.2pt'> </span>analysis<span style='letter-spacing:-.15pt'>
+</span>in<span style='letter-spacing:-.2pt'> </span>the<span style='letter-spacing:
+-.2pt'> </span>fields<span style='letter-spacing:-.2pt'> </span>of<span
+style='letter-spacing:-.1pt'> </span>controls,<span style='letter-spacing:-.2pt'>
+</span>system<span style='letter-spacing:-.15pt'> </span>dynamics,<span
+style='letter-spacing:-.15pt'> </span>state<span style='letter-spacing:-2.55pt'>
+</span>machine design, image analysis, hardware in the loop simulation and
+more.<span style='letter-spacing:.05pt'> </span>MATLAB™ is<span
+style='letter-spacing:.05pt'> </span>used<span style='letter-spacing:-.05pt'> </span>by
+every engineering<span style='letter-spacing:-.05pt'> </span>company that I<span
+style='letter-spacing:-.05pt'> </span>have worked<span style='letter-spacing:
+-.1pt'> </span>for<span style='letter-spacing:-.05pt'> </span>or with.</p>
+
+<p class=MsoBodyText style='margin-right:10.7pt;text-align:justify;text-justify:
+inter-ideograph;text-indent:.5in'>MATLAB™ is not the most-used language used in
+robotics industry, but it is simple to learn relative to other programming
+languages because MATLAB™ has reasonable debugging tools, ok help menus, a nice
+editor, and it is compiled transparently. The goal of this class is to learn
+the theoretical background of robotics and the simple setup of MATLAB will help
+us focus on the knowledge. </p>
+
+<p class=MsoBodyText style='margin-right:10.7pt;text-align:justify;text-justify:
+inter-ideograph;text-indent:.5in'><o:p>&nbsp;</o:p></p>
+
+<h1 style='line-height:normal'>Learning<span style='letter-spacing:-.3pt'> </span>Objectives:</h1>
+
+<p class=MsoListParagraph style='margin-top:.05pt;margin-right:0in;margin-bottom:
+0in;margin-left:60.0pt;margin-bottom:.0001pt;text-indent:-18.05pt;line-height:
+14.05pt;mso-line-height-rule:exactly;mso-list:l1 level1 lfo1;tab-stops:60.0pt'><![if !supportLists]><span
+style='font-size:12.0pt'><span style='mso-list:Ignore'>1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:12.0pt;mso-bidi-font-size:11.0pt'>Learn<span style='letter-spacing:
+-.1pt'> </span>the<span style='letter-spacing:-.05pt'> </span>structures<span
+style='letter-spacing:-.1pt'> </span>of<span style='letter-spacing:-.1pt'> </span>data<span
+style='letter-spacing:-.25pt'> </span>and<span style='letter-spacing:-.15pt'> </span>commands<span
+style='letter-spacing:-.1pt'> </span>in<span style='letter-spacing:-.1pt'> </span>MATLAB™.<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-right:.15in;mso-list:l1 level1 lfo1;
+tab-stops:60.0pt'><![if !supportLists]><span style='font-size:12.0pt'><span
+style='mso-list:Ignore'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt'>Gain<span style='letter-spacing:-.5pt'> </span>knowledge<span
+style='letter-spacing:-.5pt'> </span>and<span style='letter-spacing:-.45pt'> </span>familiarity<span
+style='letter-spacing:-.5pt'> </span>with<span style='letter-spacing:-.5pt'> </span>the<span
+style='letter-spacing:-.45pt'> </span>MATLAB™<span style='letter-spacing:-.5pt'>
+</span>interfaces<span style='letter-spacing:-.5pt'> </span>(command<span
+style='letter-spacing:-.45pt'> </span>prompt,<span style='letter-spacing:-2.5pt'>
+</span>script<span style='letter-spacing:-.05pt'> </span>files, M-files,<span
+style='letter-spacing:-.05pt'> </span>and<span style='letter-spacing:-.05pt'> </span>functions)<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:60.0pt;text-indent:-18.05pt;
+line-height:14.05pt;mso-line-height-rule:exactly;mso-list:l1 level1 lfo1;
+tab-stops:60.0pt'><![if !supportLists]><span style='font-size:12.0pt'><span
+style='mso-list:Ignore'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt'>Learn<span style='letter-spacing:-.1pt'> </span>the<span
+style='letter-spacing:-.15pt'> </span>ways<span style='letter-spacing:-.15pt'> </span>to<span
+style='letter-spacing:-.15pt'> </span>get<span style='letter-spacing:-.1pt'> </span>help<span
+style='letter-spacing:-.1pt'> </span>with<span style='letter-spacing:-.15pt'> </span>MATLAB™<span
+style='letter-spacing:-.15pt'> </span>(help<span style='letter-spacing:-.1pt'> </span>command,<span
+style='letter-spacing:-.15pt'> </span>html<span style='letter-spacing:-.1pt'> </span>help,<span
+style='letter-spacing:-.15pt'> </span>Google)<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-right:11.0pt;mso-list:l1 level1 lfo1;
+tab-stops:60.0pt'><![if !supportLists]><span style='font-size:12.0pt'><span
+style='mso-list:Ignore'>4)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt'>Solve<span style='letter-spacing:1.85pt'> </span>some<span
+style='letter-spacing:1.85pt'> </span>example<span style='letter-spacing:1.85pt'>
+</span>mathematics<span style='letter-spacing:1.8pt'> </span>problems<span
+style='letter-spacing:1.8pt'> </span>with<span style='letter-spacing:1.8pt'> </span>MATLAB™,<span
+style='letter-spacing:1.75pt'> </span>and<span style='letter-spacing:1.8pt'> </span>plot<span
+style='letter-spacing:1.8pt'> </span>the<span style='letter-spacing:-2.5pt'> </span>solutions<o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-right:10.9pt;mso-list:l1 level1 lfo1;
+tab-stops:60.0pt'><![if !supportLists]><span style='font-size:12.0pt'><span
+style='mso-list:Ignore'>5)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt'>Practice manipulation of rotation and homogeneous transformation matrix<span
+style='letter-spacing:-.05pt'> </span><o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-right:10.9pt;mso-list:l1 level1 lfo1;
+tab-stops:60.0pt'><![if !supportLists]><span style='font-size:12.0pt'><span
+style='mso-list:Ignore'>6)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt;letter-spacing:-.05pt'>Compare</span><span style='font-size:12.0pt;
+mso-bidi-font-size:11.0pt;letter-spacing:-.55pt'> </span><span
+style='font-size:12.0pt;mso-bidi-font-size:11.0pt;letter-spacing:-.05pt'>MATLAB™</span><span
+style='font-size:12.0pt;mso-bidi-font-size:11.0pt;letter-spacing:-.55pt'> </span><span
+style='font-size:12.0pt;mso-bidi-font-size:11.0pt;letter-spacing:-.05pt'>to</span><span
+style='font-size:12.0pt;mso-bidi-font-size:11.0pt;letter-spacing:-.65pt'> </span><span
+style='font-size:12.0pt;mso-bidi-font-size:11.0pt;letter-spacing:-.05pt'>your
+Python, </span><span style='font-size:12.0pt;mso-bidi-font-size:11.0pt;
+letter-spacing:-.5pt'>C</span><span style='font-size:12.0pt;mso-bidi-font-size:
+11.0pt'>,<span style='letter-spacing:-.55pt'> </span>FORTRAN,<span
+style='letter-spacing:-.55pt'> </span><span class=SpellE>MathCAD</span>,<span
+style='letter-spacing:-.5pt'> </span>Pascal,<span style='letter-spacing:-.55pt'>
+</span>BASIC…<span style='letter-spacing:-.55pt'> </span>programming<span
+style='letter-spacing:-2.5pt'> </span>experiences<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-left:0in'><o:p>&nbsp;</o:p></p>
+
+<h1 style='text-align:justify;text-justify:inter-ideograph'>Task<span
+style='letter-spacing:-.15pt'> </span>1<span style='letter-spacing:-.15pt'> </span>–<span
+style='letter-spacing:-.15pt'> </span>Data<span style='letter-spacing:-.15pt'> </span>Structures</h1>
+
+<p class=MsoBodyText style='margin-right:.15in;text-align:justify;text-justify:
+inter-ideograph;text-indent:.5in'>The most basic element in MATLAB™ is a double
+precision complex matrix.<span style='letter-spacing:.05pt'> </span>Many<span
+style='letter-spacing:.05pt'> </span>other kinds of data that MATLAB™ can work
+with are stored as double precision complex<span style='letter-spacing:.05pt'> </span>matrices.<span
+style='letter-spacing:.05pt'> </span>Inputting matrices to MATLAB™ can be done
+using the square brackets.<span style='letter-spacing:.05pt'> </span>At the<span
+style='letter-spacing:.05pt'> </span>command<span style='letter-spacing:.05pt'>
+</span>prompt<span style='letter-spacing:.05pt'> </span><span class=GramE>type</span><span
+style='letter-spacing:.05pt'> </span>the<span style='letter-spacing:.05pt'> </span>following<span
+style='letter-spacing:.05pt'> </span>commands<span style='letter-spacing:.05pt'>
+</span>to<span style='letter-spacing:.05pt'> </span>create<span
+style='letter-spacing:.05pt'> </span>double<span style='letter-spacing:.05pt'> </span>precision<span
+style='letter-spacing:.05pt'> </span>complex<span style='letter-spacing:.05pt'>
+</span>matrices.</p>
+
+<p class=MsoBodyText style='margin-left:41.95pt;text-align:justify;text-justify:
+inter-ideograph'>For<span style='letter-spacing:-.15pt'> </span>example,<span
+style='letter-spacing:-.1pt'> </span>you<span style='letter-spacing:-.1pt'> </span>can<span
+style='letter-spacing:-.1pt'> </span>use<span style='letter-spacing:-.2pt'> </span>MATLAB™<span
+style='letter-spacing:-.1pt'> </span>like<span style='letter-spacing:-.15pt'> </span>a<span
+style='letter-spacing:-.15pt'> </span>calculator.</p>
+
+<p class=MsoBodyText style='line-height:13.6pt;mso-line-height-rule:exactly'><span
+style='font-family:"Courier New";mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria'>&gt;&gt;<span style='letter-spacing:-.25pt'> </span>-1-1<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-left:6.0pt;line-height:13.55pt;mso-line-height-rule:
+exactly'><span style='font-family:"Courier New";mso-hansi-font-family:Cambria;
+mso-bidi-font-family:Cambria'>&gt;&gt;<span style='letter-spacing:-.2pt'> </span>2^2<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-left:42.0pt;text-align:justify;text-justify:
+inter-ideograph'>You<span style='letter-spacing:-.2pt'> </span>can<span
+style='letter-spacing:-.1pt'> </span>save<span style='letter-spacing:-.1pt'> </span>answers<span
+style='letter-spacing:-.2pt'> </span>by<span style='letter-spacing:-.1pt'> </span>assigning<span
+style='letter-spacing:-.2pt'> </span>them<span style='letter-spacing:-.2pt'> </span>to<span
+style='letter-spacing:-.15pt'> </span>variables.</p>
+
+<p class=MsoBodyText style='margin-left:6.0pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>&gt;&gt;<span
+style='letter-spacing:-.2pt'> </span>x1<span style='letter-spacing:-.2pt'> </span>=<span
+style='letter-spacing:-.15pt'> </span>[1,2,3]<span style='letter-spacing:-.2pt'>
+</span>%Creates<span style='letter-spacing:-.15pt'> </span>a<span
+style='letter-spacing:-.2pt'> </span>1<span style='letter-spacing:-.2pt'> </span>row<span
+style='letter-spacing:-.15pt'> </span>by<span style='letter-spacing:-.2pt'> </span>3<span
+style='letter-spacing:-.15pt'> </span>column<span style='letter-spacing:-.2pt'>
+</span>matrix<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-left:6.0pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>&gt;&gt;<span
+style='letter-spacing:-.15pt'> </span>R0 = <span class=GramE>eye(</span>3);<span
+style='mso-spacerun:yes'>  </span>% identity matrix. <o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-left:6.0pt;line-height:13.6pt;mso-line-height-rule:
+exactly'><span style='font-family:"Courier New";mso-hansi-font-family:Cambria;
+mso-bidi-font-family:Cambria'>&gt;&gt;<span style='letter-spacing:-.15pt'> R1 =
+[ 1.0000<span style='mso-spacerun:yes'>         </span>0<span
+style='mso-spacerun:yes'>         </span>0<o:p></o:p></span></span></p>
+
+<p class=MsoBodyText style='margin-left:6.0pt;line-height:13.6pt;mso-line-height-rule:
+exactly'><span style='font-family:"Courier New";mso-hansi-font-family:Cambria;
+mso-bidi-font-family:Cambria;letter-spacing:-.15pt'><span
+style='mso-spacerun:yes'>         </span><span
+style='mso-spacerun:yes'> </span>0<span style='mso-spacerun:yes'>   </span><span
+style='mso-spacerun:yes'>         </span><span
+style='mso-spacerun:yes'> </span>0.7071<span style='mso-spacerun:yes'>  
+</span>-0.7071<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-left:6.0pt;line-height:13.6pt;mso-line-height-rule:
+exactly'><span style='font-family:"Courier New";mso-hansi-font-family:Cambria;
+mso-bidi-font-family:Cambria;letter-spacing:-.15pt'><span
+style='mso-spacerun:yes'>         </span><span
+style='mso-spacerun:yes'> </span>0<span style='mso-spacerun:yes'>   </span><span
+style='mso-spacerun:yes'>          </span><span
+style='mso-spacerun:yes'> </span>0.7071<span style='mso-spacerun:yes'>   
+</span>0.7071] % Rx(pi/4)</span><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:4.0pt;margin-right:10.85pt;margin-bottom:
+0in;margin-left:5.95pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;text-indent:.5in'>You have created <span class=GramE>a number
+of</span> variables that are now present in<span style='letter-spacing:.05pt'> </span>the
+MATLAB™<span style='letter-spacing:.05pt'> </span>workspace.<span
+style='letter-spacing:2.5pt'> </span>They<span style='letter-spacing:-.05pt'> </span>are
+available to<span style='letter-spacing:-.05pt'> </span>be<span
+style='letter-spacing:-.05pt'> </span>used<span style='letter-spacing:-.05pt'> </span>as<span
+style='letter-spacing:-.05pt'> </span>inputs<span style='letter-spacing:-.1pt'>
+</span>to<span style='letter-spacing:-.05pt'> </span>other functions. </p>
+
+<p class=MsoBodyText style='margin-left:6.0pt'><span style='font-family:"Courier New";
+mso-bidi-font-family:Cambria'>&gt;&gt;<span style='letter-spacing:-.2pt'> </span>R2<span
+style='letter-spacing:-.15pt'> </span>=<span style='letter-spacing:-.15pt'> R1</span>’<span
+style='letter-spacing:-.2pt'> </span>%<span style='letter-spacing:-.15pt'> </span>Creates<span
+style='letter-spacing:-.15pt'> </span>a<span style='letter-spacing:-.15pt'> </span>transpose<span
+style='letter-spacing:-.2pt'> </span>of<span style='letter-spacing:-.15pt'> </span>y3<span
+style='letter-spacing:-.15pt'> </span>and<span style='letter-spacing:-.15pt'> </span>saves<span
+style='letter-spacing:-.2pt'> </span>it<span style='letter-spacing:-.15pt'> </span>over<span
+style='letter-spacing:-.15pt'> </span>y3<o:p></o:p></span></p>
+
+<p class=MsoBodyText><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>&gt;&gt;<span style='letter-spacing:-.25pt'>
+</span>det(R2) % determinant <o:p></o:p></span></p>
+
+<p class=MsoBodyText><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>&gt;&gt;<span style='letter-spacing:-.25pt'>
+</span>clear<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-left:0in'><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<h1 style='margin-top:9.35pt;line-height:normal'>Task<span style='letter-spacing:
+-.15pt'> </span>2<span style='letter-spacing:-.15pt'> </span>–<span
+style='letter-spacing:-.1pt'> </span>Built<span style='letter-spacing:-.1pt'> </span>in<span
+style='letter-spacing:-.05pt'> </span>Functions</h1>
+
+<p class=MsoBodyText style='margin-left:41.95pt'>MATLAB™<span style='letter-spacing:
+-.15pt'> </span>functions<span style='letter-spacing:-.1pt'> </span>have<span
+style='letter-spacing:-.05pt'> </span>the<span style='letter-spacing:-.15pt'> </span>generic<span
+style='letter-spacing:-.1pt'> </span><span class=GramE>structure<span
+style='letter-spacing:-.15pt'> </span>:</span></p>
+
+<p class=MsoBodyText><span style='font-family:"Courier New";mso-bidi-font-family:
+Cambria'>[output_var1,<span style='letter-spacing:-.55pt'> </span>output_var2]<span
+style='letter-spacing:-.5pt'> </span>=<span style='letter-spacing:-.55pt'> </span><span
+class=SpellE>function_<span class=GramE>name</span></span><span class=GramE>(</span>input1,<span
+style='letter-spacing:-.5pt'> </span>input2,<span style='letter-spacing:-.55pt'>
+</span>…)<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-left:41.95pt;line-height:14.05pt;mso-line-height-rule:
+exactly'>Some<span style='letter-spacing:.35pt'> </span>of<span
+style='letter-spacing:2.9pt'> </span>these<span style='letter-spacing:2.85pt'> </span>pieces<span
+style='letter-spacing:2.85pt'> </span>may<span style='letter-spacing:2.9pt'> </span>be<span
+style='letter-spacing:2.95pt'> </span>left<span style='letter-spacing:2.85pt'> </span>off,<span
+style='letter-spacing:2.9pt'> </span>depending<span style='letter-spacing:2.85pt'>
+</span>on<span style='letter-spacing:2.9pt'> </span>how<span style='letter-spacing:
+2.9pt'> </span>you<span style='letter-spacing:2.9pt'> </span>call<span
+style='letter-spacing:3.0pt'> </span>the<span style='letter-spacing:2.9pt'> </span>function.</p>
+
+<p class=MsoBodyText style='line-height:14.05pt;mso-line-height-rule:exactly'>MATLAB™<span
+style='letter-spacing:-.25pt'> </span>has<span style='letter-spacing:-.1pt'> </span>an<span
+style='letter-spacing:-.15pt'> </span>incredible<span style='letter-spacing:
+-.1pt'> </span>number<span style='letter-spacing:-.1pt'> </span>of<span
+style='letter-spacing:-.1pt'> </span>built-in<span style='letter-spacing:-.15pt'>
+</span>functions.</p>
+
+<p class=MsoBodyText><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>&gt;&gt;<span style='letter-spacing:-.15pt'>
+</span>a<span style='letter-spacing:-.15pt'> </span>=<span style='letter-spacing:
+-.15pt'> </span>[4,9]<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.05pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>&gt;&gt;<span
+style='letter-spacing:-.2pt'> </span>[y]<span style='letter-spacing:-.2pt'> </span>=<span
+style='letter-spacing:-.2pt'> </span>sqrt(a)<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.05pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>&gt;&gt;<span
+style='letter-spacing:-.3pt'> </span>[z]<span style='letter-spacing:-.25pt'> </span>=<span
+style='letter-spacing:-.3pt'> </span>[max(a)<span style='letter-spacing:-.25pt'>
+</span>min(a)<span style='letter-spacing:-.25pt'> </span><span class=GramE>mean</span>(a)<span
+style='letter-spacing:-.3pt'> </span>size(a)]<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.5pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:11.5pt;
+mso-bidi-font-size:12.0pt;font-family:"Courier New";mso-hansi-font-family:Cambria;
+mso-bidi-font-family:Cambria'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.05pt;line-height:13.6pt;mso-line-height-rule:
+exactly'><span style='font-family:"Courier New";mso-hansi-font-family:Cambria;
+mso-bidi-font-family:Cambria'>&gt;&gt;<span style='letter-spacing:-.2pt'> </span>t<span
+style='letter-spacing:-.2pt'> </span>=<span style='letter-spacing:-.2pt'> </span>[0:.1:10]<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='line-height:13.6pt;mso-line-height-rule:exactly'><span
+style='font-family:"Courier New";mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria'>&gt;&gt;<span style='letter-spacing:-.2pt'> </span>y<span
+style='letter-spacing:-.2pt'> </span>=<span style='letter-spacing:-.15pt'> </span>2*sin(t)<o:p></o:p></span></p>
+
+<p class=MsoBodyText><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>&gt;&gt;<span style='letter-spacing:-.4pt'>
+</span>plot(<span class=SpellE><span class=GramE>t,y</span></span>)<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.55pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:11.5pt;
+mso-bidi-font-size:12.0pt;font-family:"Courier New";mso-hansi-font-family:Cambria;
+mso-bidi-font-family:Cambria'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText style='margin-right:.15in;text-align:justify;text-justify:
+inter-ideograph;text-indent:.5in'>MATLAB™ has a couple of ways that you can get
+more help.<span style='letter-spacing:.05pt'> </span>Any of the built in<span
+style='letter-spacing:.05pt'> </span>MATLAB™ functions are described in the
+html help that you can access by pressing F1.<span style='letter-spacing:.05pt'>
+</span>Alternatively, you can type help at the command prompt followed by the
+name<span style='letter-spacing:.05pt'> </span>of the<span style='letter-spacing:
+.05pt'> </span>function.</p>
+
+<p class=MsoBodyText style='margin-top:.05pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>&gt;&gt;<span
+style='letter-spacing:-.25pt'> </span>help<span style='letter-spacing:-.2pt'> </span><span
+class=GramE>plot</span><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.5pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:11.5pt;
+mso-bidi-font-size:12.0pt;font-family:"Courier New";mso-hansi-font-family:Cambria;
+mso-bidi-font-family:Cambria'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText style='text-indent:.5in'>How<span style='letter-spacing:
+.1pt'> </span>can<span style='letter-spacing:.2pt'> </span>you<span
+style='letter-spacing:.1pt'> </span>find<span style='letter-spacing:.15pt'> </span>the<span
+style='letter-spacing:.2pt'> </span>function<span style='letter-spacing:.15pt'>
+</span>that<span style='letter-spacing:.15pt'> </span>you<span
+style='letter-spacing:.05pt'> </span>are<span style='letter-spacing:.2pt'> </span>looking<span
+style='letter-spacing:.15pt'> </span>for<span style='letter-spacing:.15pt'> </span>(what<span
+style='letter-spacing:.2pt'> </span>if<span style='letter-spacing:.15pt'> </span>you<span
+style='letter-spacing:.1pt'> </span>don’t<span style='letter-spacing:.15pt'> </span>even<span
+style='letter-spacing:.05pt'> </span>know<span style='letter-spacing:-2.45pt'> </span>the<span
+style='letter-spacing:-.1pt'> </span>name of the<span style='letter-spacing:
+-.05pt'> </span>function)?</p>
+
+<p class=MsoBodyText style='margin-left:41.95pt'>What<span style='letter-spacing:
+-.05pt'> </span>is<span style='letter-spacing:-.05pt'> </span>the<span
+style='letter-spacing:-.15pt'> </span>function<span style='letter-spacing:-.05pt'>
+</span>to<span style='letter-spacing:-.1pt'> </span>find<span style='letter-spacing:
+-.1pt'> </span>the<span style='letter-spacing:-.05pt'> </span>arc<span
+style='letter-spacing:-.15pt'> </span>tangent?</p>
+
+<p class=MsoBodyText style='margin-top:.05pt;margin-right:10.55pt;margin-bottom:
+0in;margin-left:41.95pt;margin-bottom:.0001pt'>What<span style='letter-spacing:
+.15pt'> </span>is<span style='letter-spacing:.15pt'> </span>the<span
+style='letter-spacing:.15pt'> </span>function<span style='letter-spacing:.1pt'>
+</span>to<span style='letter-spacing:.15pt'> </span>find<span style='letter-spacing:
+.15pt'> </span>the<span style='letter-spacing:.1pt'> </span>real/imaginary<span
+style='letter-spacing:.1pt'> </span>component<span style='letter-spacing:.1pt'>
+</span>of<span style='letter-spacing:.1pt'> </span>a<span style='letter-spacing:
+.05pt'> </span>real/imaginary<span style='letter-spacing:-2.5pt'> </span>number?</p>
+
+<p class=MsoBodyText style='margin-top:0in;margin-right:207.15pt;margin-bottom:
+0in;margin-left:41.95pt;margin-bottom:.0001pt'>What is the function to get a random
+number?<span style='letter-spacing:-2.55pt'> </span>How<span style='letter-spacing:
+-.05pt'> </span>do you plot<span style='letter-spacing:-.05pt'> </span>in 3d?</p>
+
+<p class=MsoBodyText style='margin-top:.55pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:11.5pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:0in;margin-right:117.8pt;margin-bottom:
+0in;margin-left:42.0pt;margin-bottom:.0001pt'><a
+href="http://www.mathworks.com/support/"><span style='color:blue'>http://www.mathworks.com/support/</span></a><span
+style='color:blue;letter-spacing:.05pt'> </span><a href="http://www.google.com/"><span
+style='color:windowtext;text-decoration:none;text-underline:none'>http://</span></a><a
+href="http://www.google.com/"><span style='color:blue'>www.google.com</span></a><span
+style='color:blue;letter-spacing:.05pt'> </span><a
+href="http://www.mathworks.com/matlabcentral/fileexchange/"><span
+style='color:blue;letter-spacing:-.05pt'>http://www.mathworks.com/matlabcentral/fileexchange/</span></a></p>
+
+<p class=MsoBodyText style='margin-top:.25pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:7.5pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:5.05pt;margin-right:0in;margin-bottom:
+0in;margin-left:6.0pt;margin-bottom:.0001pt;text-indent:.5in'>In<span
+style='letter-spacing:1.2pt'> </span>addition,<span style='letter-spacing:1.15pt'>
+</span>MATLAB<span style='letter-spacing:1.15pt'> </span>has<span
+style='letter-spacing:1.2pt'> </span>many<span style='letter-spacing:1.2pt'> </span>of<span
+style='letter-spacing:1.15pt'> </span>the<span style='letter-spacing:1.3pt'> </span>traditional<span
+style='letter-spacing:1.15pt'> </span>structures<span style='letter-spacing:
+1.2pt'> </span>from<span style='letter-spacing:1.15pt'> </span>C<span
+style='letter-spacing:1.2pt'> </span>and<span style='letter-spacing:1.2pt'> </span>FORTRAN<span
+style='letter-spacing:-2.45pt'> </span>including<span style='letter-spacing:
+-.05pt'> </span>if,<span style='letter-spacing:-.1pt'> </span>else, while,<span
+style='letter-spacing:-.1pt'> </span>end, etc.</p>
+
+<h1 style='margin-top:4.0pt;text-align:justify;text-justify:inter-ideograph'><o:p>&nbsp;</o:p></h1>
+
+<h1 style='margin-top:4.0pt;margin-right:0in;margin-bottom:0in;margin-left:
+6.0pt;margin-bottom:.0001pt;text-align:justify;text-justify:inter-ideograph'>Task<span
+style='letter-spacing:-.15pt'> </span>3<span style='letter-spacing:-.1pt'> </span>–<span
+style='letter-spacing:-.1pt'> </span>Other<span style='letter-spacing:-.15pt'> </span>Types
+of<span style='letter-spacing:-.1pt'> </span>MATLAB<span style='letter-spacing:
+-.05pt'> </span>Interfaces</h1>
+
+<p class=MsoBodyText style='margin-right:10.9pt;text-align:justify;text-justify:
+inter-ideograph;text-indent:.5in'>Now you are well practiced using the <b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><span
+style='color:red'>command <span class=GramE>prompt</span> </span></i></b>but
+the command prompt<span style='letter-spacing:.05pt'> </span>does not have good
+ways of saving, commenting, documenting your work.<span style='letter-spacing:
+.05pt'> </span>The second type<span style='letter-spacing:.05pt'> </span>of
+MATLAB™ interface is the <b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><span style='color:red'>script file</span></i></b>.
+The script file works very similarly to the command<span style='letter-spacing:
+-2.5pt'> </span>prompt,<span style='letter-spacing:-.1pt'> </span>you can<span
+style='letter-spacing:-.1pt'> </span>type<span style='letter-spacing:-.05pt'> </span>in<span
+style='letter-spacing:-.05pt'> </span>commands to<span style='letter-spacing:
+-.05pt'> </span>the<span style='letter-spacing:-.1pt'> </span>script file<span
+style='letter-spacing:-.05pt'> </span>and<span style='letter-spacing:-.05pt'> </span>run
+them<span style='letter-spacing:-.1pt'> </span>all<span style='letter-spacing:
+-.05pt'> </span>at<span style='letter-spacing:-.1pt'> </span>once.</p>
+
+<p class=MsoBodyText style='margin-left:41.95pt;text-align:justify;text-justify:
+inter-ideograph'>To<span style='letter-spacing:-.05pt'> </span>get<span
+style='letter-spacing:-.05pt'> </span>to<span style='letter-spacing:-.15pt'> </span>the<span
+style='letter-spacing:-.05pt'> </span>MATLAB™<span style='letter-spacing:-.05pt'>
+</span>editor<span style='letter-spacing:-.05pt'> </span>type:</p>
+
+<p class=MsoBodyText><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>&gt;&gt;<span style='letter-spacing:-.25pt'>
+</span>edit<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-right:10.85pt;text-align:justify;text-justify:
+inter-ideograph;text-indent:.5in'>You can save your scripts as text files with
+the extension *.m just like any other<span style='letter-spacing:.05pt'> </span>Windows<span
+style='letter-spacing:-.1pt'> </span>program.<span style='letter-spacing:2.55pt'>
+</span>Type<span style='letter-spacing:-.05pt'> </span>these<span
+style='letter-spacing:-.05pt'> </span>commands into<span style='letter-spacing:
+-.05pt'> </span>the<span style='letter-spacing:-.05pt'> </span>MATLAB™<span
+style='letter-spacing:-.1pt'> </span>editor:</p>
+
+<p class=MsoBodyText style='margin-top:.55pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-size:11.5pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>&gt;&gt; x = <span class=GramE>0:pi</span>/10:2*pi;<o:p></o:p></span></p>
+
+<p class=MsoBodyText><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>&gt;&gt; y1 = sin(x<span class=GramE>);</span><o:p></o:p></span></p>
+
+<p class=MsoBodyText><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>&gt;&gt; y2 = sin(x-0.25<span
+class=GramE>);</span><o:p></o:p></span></p>
+
+<p class=MsoBodyText><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>&gt;&gt; y3 = sin(x-0.5<span class=GramE>);</span><o:p></o:p></span></p>
+
+<p class=MsoBodyText><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>&gt;&gt; figure<o:p></o:p></span></p>
+
+<p class=MsoBodyText><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>&gt;&gt; plot(<span class=GramE>x,y</span>1,'g',x,y2,'b--o',x,y3,'c*')<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.4pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText style='margin-right:10.95pt;text-align:justify;text-justify:
+inter-ideograph;text-indent:.5in'>Save and run the script file.<span
+style='letter-spacing:.05pt'> </span>Script files share the workspace with the
+MATLAB™<span style='letter-spacing:.05pt'> </span>command<span
+style='letter-spacing:-.1pt'> </span>window.</p>
+
+<p class=MsoNormal style='margin-left:41.95pt;text-align:justify;text-justify:
+inter-ideograph'><span style='font-size:12.0pt;mso-bidi-font-size:11.0pt'>You<span
+style='letter-spacing:.75pt'> </span>can<span style='letter-spacing:.85pt'> </span>also<span
+style='letter-spacing:.8pt'> </span>define<span style='letter-spacing:.85pt'> </span>your<span
+style='letter-spacing:.85pt'> </span>own<span style='letter-spacing:.8pt'> </span>custom<span
+style='letter-spacing:.9pt'> </span><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><span style='color:red'>MATLAB™<span
+style='letter-spacing:.85pt'> </span>functions</span></i></b>.<span
+style='letter-spacing:1.75pt'> </span>Start<span style='letter-spacing:.8pt'> </span>a<span
+style='letter-spacing:.85pt'> </span>new<span style='letter-spacing:.85pt'> </span>M-file<span
+style='letter-spacing:.85pt'> </span>and<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.05pt'>type:</p>
+
+<p class=MsoBodyText style='margin-top:.05pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'><span
+style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.05pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>function out =
+Rx(a)<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.05pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'><span
+style='mso-spacerun:yes'>    </span><span class=GramE>%<span
+style='mso-spacerun:yes'>  </span>rotate</span> around x<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.05pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'><span
+style='mso-spacerun:yes'>    </span>out = [ 1, 0, <span class=GramE>0;...</span><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.05pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'><span
+style='mso-spacerun:yes'>            </span>0, cos(a), -sin(a<span class=GramE>);...</span><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.05pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'><span
+style='mso-spacerun:yes'>            </span>0, sin(a), cos(a)<span class=GramE>];</span><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.05pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>end</span></p>
+
+<p class=MsoBodyText style='margin-top:.05pt'>type in </p>
+
+<p class=MsoBodyText style='text-indent:.05pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'><span
+style='mso-spacerun:yes'>  </span>Rx(pi/3)<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.05pt'>You will see the rotational
+matrix corresponding to the rotation along <!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>x</m:r></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:6.75pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image003.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=9 height=19
+src="robotics-lab1_files/image004.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+style='mso-spacerun:yes'> </span>axis for <!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>60°</m:r></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:18pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image005.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=24 height=19
+src="robotics-lab1_files/image006.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]>.
+</p>
+
+<p class=MsoBodyText style='margin-top:.5pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'><o:p>&nbsp;</o:p></span></p>
+
+<h1 style='margin-left:6.0pt'>Task<span style='letter-spacing:-.1pt'> </span>4<span
+style='letter-spacing:-.1pt'> </span>–<span style='letter-spacing:-.1pt'> </span>Debugging<span
+style='letter-spacing:-.15pt'> </span>in<span style='letter-spacing:-.05pt'> </span>MATLAB</h1>
+
+<p class=MsoBodyText style='margin-top:0in;margin-right:10.75pt;margin-bottom:
+0in;margin-left:6.0pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;text-indent:35.95pt'>One of the benefits of MATLAB as a tool
+for computational experimentation, design<span style='letter-spacing:.05pt'> </span>and<span
+style='letter-spacing:-.4pt'> </span>research<span style='letter-spacing:-.45pt'>
+</span>is<span style='letter-spacing:-.4pt'> </span>that<span style='letter-spacing:
+-.35pt'> </span>it<span style='letter-spacing:-.4pt'> </span>does<span
+style='letter-spacing:-.4pt'> </span>not<span style='letter-spacing:-.35pt'> </span>precompile.<span
+style='letter-spacing:1.8pt'> </span>We<span style='letter-spacing:-.35pt'> </span>can<span
+style='letter-spacing:-.4pt'> </span>see<span style='letter-spacing:-.4pt'> </span>how<span
+style='letter-spacing:-.45pt'> </span>that<span style='letter-spacing:-.35pt'> </span>works<span
+style='letter-spacing:-.4pt'> </span>through<span style='letter-spacing:-.45pt'>
+</span>an<span style='letter-spacing:-.35pt'> </span>example.<span
+style='letter-spacing:-2.55pt'> </span>Open<span style='letter-spacing:-.05pt'>
+</span>the<span style='letter-spacing:-.1pt'> </span>editor to create a new
+script file.</p>
+
+<p class=MsoBodyText style='margin-left:6.0pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>clear<span
+style='letter-spacing:-.3pt'> </span>all;<span style='letter-spacing:-.25pt'> </span><span
+class=SpellE><span class=GramE>clc</span></span><span class=GramE>;</span><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-left:6.0pt;line-height:13.6pt;mso-line-height-rule:
+exactly'><span style='font-family:"Courier New";mso-hansi-font-family:Cambria;
+mso-bidi-font-family:Cambria'>x<span style='letter-spacing:-.25pt'> </span>=<span
+style='letter-spacing:-.2pt'> </span><span class=GramE>ones(</span>1,10);<span
+style='letter-spacing:-.25pt'> </span>%Create<span style='letter-spacing:-.2pt'>
+</span>an<span style='letter-spacing:-.2pt'> </span>array<span
+style='letter-spacing:-.25pt'> </span>of<span style='letter-spacing:-.2pt'> </span>10<span
+style='letter-spacing:-.2pt'> </span>ones.<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:0in;margin-right:21.55pt;margin-bottom:
+0in;margin-left:34.75pt;margin-bottom:.0001pt;text-indent:-.4in'><span
+style='font-family:"Courier New";mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria;color:blue'>for<span style='letter-spacing:-.2pt'> </span></span><span
+style='font-family:"Courier New";mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria'>n<span style='letter-spacing:-.2pt'> </span>=<span style='letter-spacing:
+-.2pt'> </span>2:6<span style='letter-spacing:-.2pt'> </span>%Perform<span
+style='letter-spacing:-.2pt'> </span>a<span style='letter-spacing:-.2pt'> </span>calculation<span
+style='letter-spacing:-.2pt'> </span>on<span style='letter-spacing:-.2pt'> </span>items<span
+style='letter-spacing:-.2pt'> </span>2-6<span style='letter-spacing:-.2pt'> </span>in<span
+style='letter-spacing:-.2pt'> </span>the<span style='letter-spacing:-.2pt'> </span>array<span
+style='letter-spacing:-7.05pt'> </span>x(n)<span style='letter-spacing:-.1pt'> </span>=<span
+style='letter-spacing:-.05pt'> </span>2<span style='letter-spacing:-.05pt'> </span>*<span
+style='letter-spacing:-.05pt'> </span>x(n-1<span class=GramE>);</span><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-left:6.0pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria;color:blue'>end</span><span
+style='font-family:"Courier New";mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria'><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:.5pt;margin-right:0in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText style='margin-left:6.0pt;text-align:justify;text-justify:
+inter-ideograph;line-height:14.05pt;mso-line-height-rule:exactly'>Save<span
+style='letter-spacing:.25pt'> </span>the<span style='letter-spacing:.25pt'> </span>file,<span
+style='letter-spacing:.25pt'> </span>then place a “stop” on line 4 by clicking
+on the “<span class=GramE>-“ mark</span> next to line number 2.</p>
+
+<p class=MsoBodyText style='margin-top:0in;margin-right:10.85pt;margin-bottom:
+0in;margin-left:6.0pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph'>Click run. There should now be a green arrow on line 2
+indicating the code is paused on this<span style='letter-spacing:-2.55pt'> </span>line.
+You can step through the function by clicking Run Next Line (F10), watch the
+value of x<span style='letter-spacing:-2.5pt'> </span>update on the workspace
+browser as you step through the code.<span style='letter-spacing:.05pt'> </span>This
+can be very helpful in<span style='letter-spacing:-2.5pt'> </span>debugging<span
+style='letter-spacing:-.05pt'> </span>your MATLAB<span style='letter-spacing:
+-.05pt'> </span>codes.</p>
+
+<p class=MsoBodyText style='margin-left:0in'><o:p>&nbsp;</o:p></p>
+
+<h1 style='margin-left:6.0pt;text-align:justify;text-justify:inter-ideograph;
+line-height:normal'>Task<span style='letter-spacing:-.05pt'> </span>5<span
+style='letter-spacing:-.05pt'> </span>– Install robotics toolbox and familiarize
+basic commands. </h1>
+
+<p class=MsoBodyText style='margin-top:1.75pt'>In this task, we will first install
+Robotics toolbox <a href="https://petercorke.com/toolboxes/robotics-toolbox/">https://petercorke.com/toolboxes/robotics-toolbox/</a><span
+class=MsoHyperlink> </span><span class=MsoHyperlink><span style='text-decoration:
+none;text-underline:none'><span style='mso-spacerun:yes'> </span></span></span>and
+then use some functions in the toolbox to practice what we have learnt in
+lectures. You can find <b>the manual</b> with a list of all the commands at the
+end of the toolbox website: <a
+href="https://petercorke.com/download/27/rtb/1050/rtb-manual.pdf">https://petercorke.com/download/27/rtb/1050/rtb-manual.pdf</a></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'><span style='color:blue;
+mso-themecolor:hyperlink'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'>Refer to Ch2 of Peter <span
+class=SpellE>Corke’s</span> textbook (page 34 to 36). For example, we can create
+rotational matrix or homogeneous transformation matrix. </p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>&gt;&gt; R = <span
+class=SpellE>rotx</span>(pi/2) % rotate about x axis for pi/2 <o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>&gt;&gt; R = <span
+class=SpellE><span class=GramE>rotz</span></span><span class=GramE>(</span>0.1)
+* <span class=SpellE>roty</span>(0.2) * <span class=SpellE>rotz</span>(0.3);
+%ZYZ Euler Angle<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>&gt;&gt; T = <span
+class=SpellE><span class=GramE>transl</span></span><span class=GramE>(</span>1,
+0, 0) * <span class=SpellE>trotx</span>(pi/2) * <span class=SpellE>transl</span>(0,
+1, 0)<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>&gt;&gt; R = eul2<span
+class=GramE>r(</span>0.1, 0.2, 0.3) %<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'>&gt;&gt; gamma =
+tr2eul(R)<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'>Using the toolbox, you can plot
+the coordinate frame using <span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'><o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'><span class=SpellE><span
+style='font-family:"Courier New";mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria'>trplot</span></span><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>(R)<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'><span class=SpellE><span
+style='font-family:"Courier New";mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria'>trplot</span></span><span style='font-family:"Courier New";mso-hansi-font-family:
+Cambria;mso-bidi-font-family:Cambria'>(T)<o:p></o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt'>You can also visualize the
+rotations or homogenous transformations by using the following command</p>
+
+<h1 style='margin-left:6.0pt;text-align:justify;text-justify:inter-ideograph;
+line-height:normal'><span class=SpellE><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria;font-weight:normal'>tranimate</span></span><span
+style='font-family:"Courier New";mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria;font-weight:normal'>(R)<span style='mso-tab-count:1'>  </span><o:p></o:p></span></h1>
+
+<h1 style='margin-left:6.0pt;text-align:justify;text-justify:inter-ideograph;
+line-height:normal'><span class=SpellE><span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria;font-weight:normal'>tranimate</span></span><span
+style='font-family:"Courier New";mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria;font-weight:normal'>(T)<o:p></o:p></span></h1>
+
+<h1 style='margin-left:6.0pt;text-align:justify;text-justify:inter-ideograph;
+line-height:normal'><o:p>&nbsp;</o:p></h1>
+
+<h1 style='margin-left:6.0pt;text-align:justify;text-justify:inter-ideograph;
+line-height:normal'>Homework</h1>
+
+<h1 style='margin-left:6.0pt;text-align:justify;text-justify:inter-ideograph;
+line-height:normal'><o:p>&nbsp;</o:p></h1>
+
+<h1 style='margin-left:6.0pt;text-align:justify;text-justify:inter-ideograph;
+line-height:normal'>Objectives: Practice manipulation of rotation and
+homogeneous transformation matrix</h1>
+
+<p class=MsoBodyText style='margin-left:0in'><b style='mso-bidi-font-weight:
+normal'><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoBodyText style='margin-top:0in;margin-right:21.55pt;margin-bottom:
+0in;margin-left:70.75pt;margin-bottom:.0001pt;text-indent:-.4in'><span
+style='font-family:"Courier New";mso-hansi-font-family:Cambria;mso-bidi-font-family:
+Cambria;letter-spacing:-.05pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:0in;margin-right:21.55pt;margin-bottom:
+0in;margin-left:70.75pt;margin-bottom:.0001pt;text-indent:-.4in'>Initially the
+frame (<!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
+   style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+   normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i style='mso-bidi-font-style:
+   normal'><span style='font-family:"Cambria Math",serif'><m:r>X</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>0</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:12.75pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image007.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=17 height=19
+src="robotics-lab1_files/image008.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]>,
+<!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span style='font-family:
+   "Cambria Math",serif;mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>Y</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>0</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:10.5pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image009.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=14 height=19
+src="robotics-lab1_files/image010.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]>,
+<!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span style='font-family:
+   "Cambria Math",serif;mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>Z</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>0</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:12pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image011.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=16 height=19
+src="robotics-lab1_files/image012.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]>)
+is located at the origin of the global frame. </p>
+
+<p class=MsoBodyText style='margin-top:1.75pt;margin-right:0in;margin-bottom:
+0in;margin-left:41.95pt;margin-bottom:.0001pt'>Rotate 30<!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>°</m:r></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:4.5pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image013.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=6 height=19
+src="robotics-lab1_files/image014.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+style='mso-spacerun:yes'> </span>about <!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>O</m:r></span></i><m:sSub><m:sSubPr><span
+   style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+   normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i style='mso-bidi-font-style:
+   normal'><span style='font-family:"Cambria Math",serif'><m:r>X</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>0</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:21pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image015.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=28 height=19
+src="robotics-lab1_files/image016.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'> </span>axis (<!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
+   style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+   normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i style='mso-bidi-font-style:
+   normal'><span style='font-family:"Cambria Math",serif'><m:r>X</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>0</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:12.75pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image007.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=17 height=19
+src="robotics-lab1_files/image008.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]>,
+<!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span style='font-family:
+   "Cambria Math",serif;mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>Y</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>0</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:10.5pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image009.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=14 height=19
+src="robotics-lab1_files/image010.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]>,
+<!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span style='font-family:
+   "Cambria Math",serif;mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>Z</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>0</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:12pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image011.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=16 height=19
+src="robotics-lab1_files/image012.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]>)
+&#8722;&#8594; (<!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
+   style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+   normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i style='mso-bidi-font-style:
+   normal'><span style='font-family:"Cambria Math",serif'><m:r>X</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>1</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:12pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image017.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=16 height=19
+src="robotics-lab1_files/image018.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]>,
+<!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span style='font-family:
+   "Cambria Math",serif;mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>Y</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>1</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:10.5pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image019.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=14 height=19
+src="robotics-lab1_files/image020.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]>,
+<!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span style='font-family:
+   "Cambria Math",serif;mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>Z</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>1</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:12pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image021.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=16 height=19
+src="robotics-lab1_files/image022.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+class=GramE>);</span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt;margin-right:0in;margin-bottom:
+0in;margin-left:41.95pt;margin-bottom:.0001pt'>Translate 3 units along <!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>O</m:r></span></i><m:sSub><m:sSubPr><span
+   style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+   normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i style='mso-bidi-font-style:
+   normal'><span style='font-family:"Cambria Math",serif'><m:r>X</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>1</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:21pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image023.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=28 height=19
+src="robotics-lab1_files/image024.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+style='mso-spacerun:yes'> </span>(X1, Y1, Z1) &#8722;&#8594; (X2, Y2, Z2<span
+class=GramE>);</span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt;margin-right:0in;margin-bottom:
+0in;margin-left:41.95pt;margin-bottom:.0001pt'>Followed by a rotation of 60<!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>°</m:r></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:4.5pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image013.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=6 height=19
+src="robotics-lab1_files/image014.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+style='mso-spacerun:yes'> </span>about <!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>O</m:r></span></i><m:sSub><m:sSubPr><span
+   style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+   normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i style='mso-bidi-font-style:
+   normal'><span style='font-family:"Cambria Math",serif'><m:r>Y</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>2</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:18.75pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image025.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=25 height=19
+src="robotics-lab1_files/image026.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+style='mso-spacerun:yes'> </span>axis (X2, Y2, Z2) &#8722;&#8594; (X3, Y3, Z3<span
+class=GramE>);</span></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt;margin-right:0in;margin-bottom:
+0in;margin-left:41.95pt;margin-bottom:.0001pt'>Translate 3 units along <!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>O</m:r></span></i><m:sSub><m:sSubPr><span
+   style='font-family:"Cambria Math",serif;mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+   normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i style='mso-bidi-font-style:
+   normal'><span style='font-family:"Cambria Math",serif'><m:r>X</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-family:"Cambria Math",serif'><m:r>3</m:r></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:DengXian;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:21pt;height:14.25pt'>
+ <v:imagedata src="robotics-lab1_files/image027.png" o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=28 height=19
+src="robotics-lab1_files/image028.gif" v:shapes="_x0000_i1025"><![endif]></span><![endif]><span
+style='mso-spacerun:yes'> </span>(X3, Y3, Z3) &#8722;&#8594; (X4, Y4, Z4<span
+class=GramE>);</span> </p>
+
+<p class=MsoBodyText style='margin-top:1.75pt;margin-right:0in;margin-bottom:
+0in;margin-left:41.95pt;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt;margin-right:0in;margin-bottom:
+0in;margin-left:23.95pt;margin-bottom:.0001pt;text-indent:-.25in;mso-list:l0 level1 lfo4'><![if !supportLists]><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>(a) Write your own code using <span style='font-family:
+"Courier New";mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria;
+letter-spacing:-.05pt'>quiver3 </span>to plot the location of the frames (0-4)
+and label them in the same figure. Use ‘red’, ‘green’, and ‘blue’ for the x, y,
+and z axis. (Hint: to set the orientation, use<span style='font-family:"Courier New";
+mso-hansi-font-family:Cambria;mso-bidi-font-family:Cambria;letter-spacing:-.05pt'>
+<span class=SpellE><span class=GramE>daspect</span></span><span class=GramE>(</span>[1
+1 1]); view(20,150)</span>;). (40 points)</p>
+
+<p class=MsoBodyText style='margin-top:1.75pt;margin-right:0in;margin-bottom:
+0in;margin-left:23.95pt;margin-bottom:.0001pt'>(b) Use the Robotics Toolbox to
+generate a figure showing all the frames (0-4). (30 points)</p>
+
+<p class=MsoBodyText style='margin-top:1.75pt;margin-right:0in;margin-bottom:
+0in;margin-left:41.95pt;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoBodyText style='margin-top:1.75pt;margin-right:0in;margin-bottom:
+0in;margin-left:23.95pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;text-indent:-.25in;mso-list:l0 level1 lfo4'><![if !supportLists]><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>There is a point A with a coordinate [0, 3, <span
+class=GramE>1]<sup>T</sup></span> in frame 4. Use <span class=SpellE>Matlab</span>
+to calculate the coordinate of A in frame 0, 1, 2, and 3. Plot this point in
+the figure generated in question 1. (30 points)</p>
+
+<p class=MsoBodyText style='margin-left:0in'><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoBodyText style='margin-top:11.7pt;margin-right:10.9pt;margin-bottom:
+0in;margin-left:5.95pt;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;text-indent:.5in'>Fully document your homework solutions using
+this handout as a template.<span style='letter-spacing:.05pt'> </span>All<span
+style='letter-spacing:.05pt'> </span>problem<span style='letter-spacing:-.3pt'>
+</span>statements<span style='letter-spacing:-.25pt'> </span>must<span
+style='letter-spacing:-.3pt'> </span>be<span style='letter-spacing:-.25pt'> </span>copied<span
+style='letter-spacing:-.35pt'> </span>to<span style='letter-spacing:-.25pt'> </span>the<span
+style='letter-spacing:-.25pt'> </span>solutions.<span style='letter-spacing:
+2.05pt'> </span>All<span style='letter-spacing:-.3pt'> </span>diagrams<span
+style='letter-spacing:-.25pt'> </span>and<span style='letter-spacing:-.3pt'> </span>plots<span
+style='letter-spacing:-.25pt'> </span>must<span style='letter-spacing:-.25pt'> </span>be<span
+style='letter-spacing:-.3pt'> </span>labeled<span style='letter-spacing:-2.5pt'>
+</span>with<span style='letter-spacing:-.1pt'> </span>units<span
+style='letter-spacing:-.05pt'> </span>and<span style='letter-spacing:-.05pt'> </span>symbols
+and<span style='letter-spacing:-.05pt'> </span>must<span style='letter-spacing:
+-.05pt'> </span>be<span style='letter-spacing:-.1pt'> </span>captioned.</p>
+
+</div>
+
+</body>
+
+</html>
