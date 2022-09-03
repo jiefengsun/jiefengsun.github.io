@@ -53,7 +53,7 @@ Some derivations are pretty lengthy, and derivations using Matlab are provided t
 
 Here are some resources to help you learn rod model
 
-- [Dr. John Till's tutorial on Cosserat rod simulation from Dr. Caleb Rucker's group](). This is a good tutorial more focus on numerical implementation and is suitable for researchers with a background in robotics.
+- [Dr. John Till's tutorial on Cosserat rod simulation from Dr. Caleb Rucker's group](https://github.com/JohnDTill/ContinuumRobotExamples). This is a good tutorial more focus on numerical implementation and is suitable for researchers with a background in robotics.
 	
 - [Dr. Oliver M. O’Reilly's website on Rode model formulation](https://rotations.berkeley.edu/site-information/). Good for researchers who have a background in (continuum) mechanics. It is more focused on the theoretical formulation. 
 

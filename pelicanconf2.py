@@ -6,7 +6,7 @@ AUTHOR = 'Jiefeng Sun'
 SITEURL =  'http://localhost:8000'   # 'https://jiefengsun.github.io' #
 SITENAME = 'Jiefeng personal website'
 # SITETITLE = 'Flex'
-SITESUBTITLE = 'Jiefeng Sun, PhD student'
+SITESUBTITLE = 'Jiefeng Sun, Ph.D.'
 SITEDESCRIPTION = 'Robotics and Artificial Muscle'
 SUMMARY_MAX_LENGTH = 0
 

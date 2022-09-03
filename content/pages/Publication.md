@@ -7,10 +7,13 @@ sortorder: 03
  **[[Google Scholar](https://scholar.google.com/citations?user=fjUoHOsAAAAJ&hl=en)]**
 
 #### Journal Articles
+1. W. Wang†, **J. Sun†**, S. Vallabhuneni, B. Pawlowski, H. Vahabi, K. Nellenbach, A. C. Brown,
+F. Scholle, J. Zhao∗, and A. K. Kota∗, “On-demand, remote and lossless manipulation of
+biofluid droplets,” Materials Horizons (Accepted), 2022 († co-first author)
 
-1. H.  Hsiao, **J. Sun**,  H.  Zhang,  and  J.  Zhao,  “A  mechanically  intelligent  and  passive  gripper for aerial perching and grasping,”IEEE/ASME Transactions on Mechatronics. [Accepted] [[<u>PDF</u>]]({static}/pdfs/hsiao2022mech.pdf) [[<u>Video</u>]](https://www.youtube.com/watch?v=HrISGcZqgPs&feature=youtu.be). 
+1. H.  Hsiao, **J. Sun**,  H.  Zhang,  and  J.  Zhao,  “A  mechanically  intelligent  and  passive  gripper for aerial perching and grasping,”IEEE/ASME Transactions on Mechatronics. [[<u>PDF</u>]]({static}/pdfs/hsiao2022mech.pdf) [[<u>Video</u>]](https://www.youtube.com/watch?v=HrISGcZqgPs&feature=youtu.be). 
 
-1. J. Sun and J. Zhao, “Physics-based modeling of twisted-and-coiled actuators using cosserat rod theory,” IEEE Transactions on Robotics, vol. 38, no. 2, pp. 779–796, 2022, 2021 [[<u>PDF</u>]]({static}/pdfs/sun2022physics.pdf) [[<u>Supporting Page</u>]]({filename}/category/TCA_TRO.md).
+1. **J. Sun** and J. Zhao, “Physics-based modeling of twisted-and-coiled actuators using cosserat rod theory,” IEEE Transactions on Robotics, vol. 38, no. 2, pp. 779–796, 2022, 2021 [[<u>PDF</u>]]({static}/pdfs/sun2022physics.pdf) [[<u>Supporting Page</u>]]({filename}/category/TCA_TRO.md).
 
 1. **J. Sun**, B. Tighe, Y. Liu, and J. Zhao, “Twisted-and-coiled actuators with free strokes enable soft robots with programmable motions,” Soft robotics, vol. 8, no. 2, pp. 213–225, 2021  [[<u>PDF</u>]]({static}/pdfs/sun2021twisted.pdf) [[<u>Video</u>]](https://youtu.be/M3MFRgYEnIk) [[<u>Supporting Material</u>]]({static}/pdfs/Programmable Motions SM.pdf) [News]: [CSU News](https://engr.source.colostate.edu/soft-robots-can-flex-artificial-muscles-made-from-sewing-thread/), [TechXplore](https://techxplore.com/news/2020-07-artificial-muscle-thread-enables-motions.html), [ElectronicDesign](https://www.electronicdesign.com/industrial-automation/article/21147106/electronic-design-coiled-conductivethread-actuators-eerily-emulate-muscle-motion). 
 
@@ -18,7 +21,7 @@ sortorder: 03
 
 1. **J. Sun** and J. Zhao, “An adaptive walking robot with reconfigurable mechanisms using shape morphing joints,” IEEE Robotics and Automation Letters (RAL), vol. 4, no. 2, pp. 724–731, 2019.[[<u>PDF</u>]]({static}/pdfs/sun2019adaptive.pdf) [[<u>Video</u>]](https://youtu.be/igZG-D9EWXI) [News]: [TechXplore](https://techxplore.com/news/2019-02-shape-morphing-joints-small-robots-ace.html), [IEEE Spectrum](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/robot-melts-its-bones-to-change-how-it-walks), [Futurism](https://futurism.com/the-byte/robot-melt-bones-avoid-obstacles), [High Tech Deck](https://hightechdeck.com/adaptive-robot-melts-solidifies-its-bones-on-the-fly-to-avoid-obstacles/)
 
-1. B. Pawlowski, **J. Sun**, J. Xu, Y. Liu, and J. Zhao, “Modeling of soft robots actuated by twisted1. and-coiled actuators,” IEEE/ASME Transactions on Mechatronics, vol. 24, no. 1, pp. 5–15, 2018. [[<u>PDF</u>]]({static}/pdfs/pawlowski2018modeling.pdf).
+1. B. Pawlowski, **J. Sun**, J. Xu, Y. Liu, and J. Zhao, “Modeling of soft robots actuated by twisted-and-coiled actuators,” IEEE/ASME Transactions on Mechatronics, vol. 24, no. 1, pp. 5–15, 2018. [[<u>PDF</u>]]({static}/pdfs/pawlowski2018modeling.pdf).
 
 #### Conference Proceedings 
 1. **J. Sun** and J. Zhao, “Modeling and simulation of soft robots driven by artificial muscles: an example using twisted-and-coiled actuators,” in 2022 American Control Conference ACC). Invited Paper[Accepted].[[<u>PDF</u>]]({static}/pdfs/sun2022modeling.pdf) [[<u>Video</u>]](https://youtu.be/FfRRqfR8YXw).
