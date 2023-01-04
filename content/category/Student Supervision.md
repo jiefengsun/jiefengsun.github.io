@@ -2,7 +2,7 @@ Title: Training Graduate Students
 Date: 2020-05-18 08:00
 Modified: 2022-3-01 08:00
 Category: Student  Supervision
-Slug: student_supervision
+Slug: student_supervision 
 
 ## Steps to train a PhD student on research
 

@@ -1,15 +1,14 @@
 Title: About
 Date: 2020-05-18 08:00
-Modified: 2022-9-15 08:00
+Modified: 2022-9-12 08:00
 sortorder: 01
 
-- updated: 9/25/2022
+- updated: 1/1/2023
 
-My name is Jiefeng Sun and I am current a postdoc at CSU with [Prof. Jianguo Zhao](https://www.engr.colostate.edu/me/dr-jianguo-zhao/). I will be a postdoc with [Prof. Rebecca Kramer-Bottiglio](https://www.eng.yale.edu/faboratory/) at Yale since Jan. 2023. 
+My name is Jiefeng Sun and I am a postdoc with [Prof. Rebecca Kramer-Bottiglio](https://www.eng.yale.edu/faboratory/) at Yale University. My research focuses on the design, modeling, and control of artificial muscles and artificial-muscle-driven robots.
 
-I obtained my Ph.D. student from [Colorado State University](https://www.engr.colostate.edu/me/) in Mechanical Engineering in 2022 under the supervision of Prof. Zhao. My research focuses on the design, modeling, and control of artificial muscles and artificial-muscle-driven robots. I earned my B.S. and M.S. in Mechanical Engineering respectively from Lanzhou University of Technology Lanzhou in 2014 and [Dalian University of Technology (DLUT)](http://en.dlut.edu.cn/) in 2017. 
+I obtained my Ph.D. degree from [Colorado State University](https://www.engr.colostate.edu/me/) in Mechanical Engineering in Aug. 2022 under the supervision of [Prof. Jianguo Zhao](https://www.engr.colostate.edu/me/dr-jianguo-zhao/).  I earned my B.S. and M.S. in Mechanical Engineering respectively from Lanzhou University of Technology Lanzhou in 2014 and [Dalian University of Technology (DLUT)](http://en.dlut.edu.cn/) in 2017. Please find my [CV here]({static}/pdfs/CV_Jiefeng_Sun.pdf). Thanks!
 
-I am seeking a faculty positioin in academia in the future. Please find my [CV here]({static}/pdfs/CV_Jiefeng_Sun.pdf). Thanks! 
 
 
 #### Research Areas
@@ -18,19 +17,16 @@ I am seeking a faculty positioin in academia in the future. Please find my [CV h
 - Robotics Modeling and Control
 - Small and Reconfigurable Robots
 
-
 #### News
 
-<center><figure> <img src="{static}/images/DARPA_RISER.png" style="width:420px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;">
- <figcaption> I am selected as a Defense Advanced Research Projects Agency (DARPA) Riser, Class of 2022. DARPA defines the Risers as, "...up-and-coming standouts in their fields, capable of discovering and leveraging innovative opportunities for technological surprise—the heart of DARPA’s national security mission.". </figcaption>
-</figure> </center>
-
-<!--- 11/1/2022 I start to serve as a guest editor in Frontiers in Robotics and AI under the topic of "Hybrid Actuators".
-- 10/1/2022 I start to serve as an associate editor of ICRA 2023 in the field of soft robotics. -->
-- 9/3/2022 Our paper using hydrophobic-coated soft rorobts to manipulate biofluid droplets is accepted by Materials Horizons! I am a co-first author with [Dr. Wei Wang](https://mabe.utk.edu/people/wei-wang/) from University of Tennessee, Knoxville.
+<!--- 11/1/2022 I start to serve as a guest editor in Frontiers in Robotics and AI under the topic of "Hybrid Actuators".-->
+<!--- 2/1/2022 Our paper "" is accepted by ACC 2023..-->
+- 1/01/2022 I serve as a reviewer for [2022 GRFP](https://www.nsfgrfp.org/) in the field of mechanical engineering. 
+- 10/10/2022 I serve as an associate editor of ICRA 2023 in the field of soft robotics. 
+- 9/3/2022 Our paper using hydrophobic-coated soft robots to manipulate biofluid droplets is accepted by Materials Horizons! I am a co-first author with [Dr. Wei Wang](https://mabe.utk.edu/people/wei-wang/) from University of Tennessee, Knoxville.
 - 8/15/2022 I am glad to have a seminar talk at University of Louisville. 
 - 7/26/2022 I am glad to have a seminar talk at Yale University. 
-- 6/25/2022 I am selected as a **DARPA riser** (Class of 2022) to participate in the DARPA Forward conference.
+- 6/25/2022 I am selected as a [**DARPA riser**]({static}/images/DARPA_RISER.png) (Class of 2022) to participate in the DARPA Forward conference. 
 - 5/31/2022 I successfully defended my PhD dissertation.  
 - 5/4/2022 One co-authored paper on aerial grasping and perching is accepted by T-mech.
 - 4/25/2022 Selected as the Reviewer of the Year 2021 by Smart Materials and Structures Journal.
@@ -40,7 +36,7 @@ I am seeking a faculty positioin in academia in the future. Please find my [CV h
 
 
 #### My Links
-[【Google Scholar】](https://scholar.google.com/citations?user=fjUoHOsAAAAJ&hl=en), [【Researchgate】](https://www.researchgate.net/profile/Jiefeng_Sun2), [【Dr. Zhao's Adaptive Robotics Lab】](https://www.engr.colostate.edu/laboratories/adaptive-robotics-laboratory/), [【Linkdin】](https://www.linkedin.com/in/jiefeng-sun/), [【YouTube Channels】](https://www.youtube.com/channel/UCkeHwaZrEeFG-GXNSTONIzg)
+[【Google Scholar】](https://scholar.google.com/citations?user=fjUoHOsAAAAJ&hl=en), [【Researchgate】](https://www.researchgate.net/profile/Jiefeng_Sun2), [【Linkdin】](https://www.linkedin.com/in/jiefeng-sun/), [【YouTube Channels】](https://www.youtube.com/channel/UCkeHwaZrEeFG-GXNSTONIzg)
 
 #### [My blog ctegories](https://jiefengsun.github.io/categories.html)
 The blog contains my posts on my previous project summary (Robotics Modeling, Numerical Simulation, Artificial Muscle ect.).
@@ -60,5 +56,5 @@ Before my PhD study: here is a [summary]({filename}/category/Before_PhD.md) of p
 1. Pelican (publishing webpages)  
 
 #### Contact
-- Email: <J.Sun@colostate.edu>, 
+- Email: <jiefeng.sun@yale.edu>, <sunsopher@gmail.com>
 - Wechat: sunsopher

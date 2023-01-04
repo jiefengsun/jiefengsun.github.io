@@ -9,7 +9,7 @@ sortorder: 03
 #### Journal Articles
 1. W. Wang†, **J. Sun†**, S. Vallabhuneni, B. Pawlowski, H. Vahabi, K. Nellenbach, A. C. Brown,
 F. Scholle, J. Zhao∗, and A. K. Kota∗, “On-demand, remote and lossless manipulation of
-biofluid droplets,” Materials Horizons (Accepted), 2022 († co-first author)
+biofluid droplets,” Materials Horizons (Accepted), 2022 († co-first author) [[<u>PDF</u>]]({static}/pdfs/wang2022on.pdf)[[<u>Video</u>]](https://youtu.be/kVO0zDcH858) [News]: [CSU News](https://engr.source.colostate.edu/soft-skills-researchers-invent-robotic-droplet-manipulators-for-hazardous-liquid-cleanup/), [Popular Science Magazine](https://www.popsci.com/technology/robot-liquid-droplet/), [TechXplore](https://techxplore.com/news/2022-11-soft-skills-robotic-droplet-hazardous.html). 
 
 1. H.  Hsiao, **J. Sun**,  H.  Zhang,  and  J.  Zhao,  “A  mechanically  intelligent  and  passive  gripper for aerial perching and grasping,”IEEE/ASME Transactions on Mechatronics. [[<u>PDF</u>]]({static}/pdfs/hsiao2022mech.pdf) [[<u>Video</u>]](https://www.youtube.com/watch?v=HrISGcZqgPs&feature=youtu.be). 
 
