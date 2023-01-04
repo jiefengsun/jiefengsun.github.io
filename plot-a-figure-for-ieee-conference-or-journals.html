@@ -51,23 +51,23 @@
     <meta name="msapplication-TileColor" content="#333333">
 
 <meta name="author" content="Jiefeng Sun" />
-<meta name="description" content="I use OneDrive for Business. The error happens when I changed the directory/folder that I want to synchronize. The …" />
+<meta name="description" content="Plot a figure for IEEE Conference or Journals Please download IEEEfigure.m from this link. Here is a code that …" />
 <meta name="keywords" content="">
 
 
 <meta property="og:site_name" content="Jiefeng personal website"/>
-<meta property="og:title" content="OneDrive Error Message: Sorry, there was problem displaying this folder... please try again"/>
-<meta property="og:description" content="I use OneDrive for Business. The error happens when I changed the directory/folder that I want to synchronize. The …"/>
+<meta property="og:title" content="Plot a figure for IEEE Conference or Journals"/>
+<meta property="og:description" content="Plot a figure for IEEE Conference or Journals Please download IEEEfigure.m from this link. Here is a code that …"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://jiefengsun.github.io/onedrive-error-message-sorry-there-was-problem-displaying-this-folder-please-try-again.html"/>
+<meta property="og:url" content="https://jiefengsun.github.io/plot-a-figure-for-ieee-conference-or-journals.html"/>
 <meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2020-06-11 08:00:00-06:00"/>
-<meta property="article:modified_time" content="2020-06-11 10:50:00-06:00"/>
+<meta property="article:published_time" content="2022-11-11 08:00:00-07:00"/>
+<meta property="article:modified_time" content="2021-11-11 10:50:00-07:00"/>
 <meta property="article:author" content="https://jiefengsun.github.io/author/jiefeng-sun.html">
-<meta property="article:section" content="Computer_Problems"/>
+<meta property="article:section" content="Research Tricks & Tools"/>
 <meta property="og:image" content="/images/jiefeng.jpg">
 
-  <title>Jiefeng personal website &ndash; OneDrive Error Message: Sorry, there was problem displaying this folder... please try again</title>
+  <title>Jiefeng personal website &ndash; Plot a figure for IEEE Conference or Journals</title>
 
 </head>
 <body class="light-theme">
@@ -153,24 +153,33 @@
 <article class="single">
   <header>
       
-    <h1 id="onedrive-error-message-sorry-there-was-problem-displaying-this-folder-please-try-again">OneDrive Error Message: Sorry, there was problem displaying this folder... please try again</h1>
+    <h1 id="plot-a-figure-for-ieee-conference-or-journals">Plot a figure for IEEE Conference or Journals</h1>
     <p>
-      Posted on June 11, 2020 in <a href="https://jiefengsun.github.io/category/computer_problems.html">Computer_Problems</a>
+      Posted on November 11, 2022 in <a href="https://jiefengsun.github.io/category/research-tricks-tools.html">Research Tricks & Tools</a>
 
     </p>
   </header>
 
 
   <div>
-    <p>I use OneDrive for Business. The error happens when I changed the directory/folder that I want to synchronize. </p>
-<p>The problem is the name of your folder is wrong and the best way is to just let OneDrive degenerate the folders and you move the files that you want to synchronize into tht folder. </p>
-<p>To solve the problem follow the following steps:</p>
+    <h3>Plot a figure for IEEE Conference or Journals</h3>
+<p>Please download <code>IEEEfigure.m</code> from this <a href="https://jiefengsun.github.io/code/tutorial/IEEEfigure.m">link</a>.
+Here is a code that you can see how I use it. </p>
+<h4>Export figures with transprant background from matlab</h4>
+<p>If we directly copy the plot form the figure window of Matlab, it will be mate data with a transparent background.
+But the resolution of the figure is not high. </p>
+<p>I personally prefer the following commands to export plots from matlab. </p>
 <ol>
-<li>Try to reinstall OneDrive and reset OneDrive using cmd commend: <code>%localappdata%\Microsoft\OneDrive\onedrive.exe /reset</code></li>
-<li>Name a folder <em>OneDrive</em> exactly.</li>
-<li>Select the folder as the folder that you will synchronize.</li>
-<li>OneDrive will create a folder named _OneDrive - <strong><em>_, where </em></strong> is your Business domain.</li>
-<li>Move all you file to the folder <em>OneDrive - ***</em>. </li>
+<li><code>print('-f1', 'namg', '-dpng', '-r300')</code></li>
+<li><code>copygraphics(gcf,'Resolution',300)</code></li>
+<li><code>exportgraphics(gcf,'force_conv.png', 'Resolution',300)</code></li>
+</ol>
+<p>However, these methods are not able to export png with a transparent background. </p>
+<p>To solve this problme, </p>
+<ol>
+<li>Import into <code>photoshop</code> to remove the background.</li>
+<li>Use <code>export_fig</code> library</li>
+<li>Export as eps with a transparent background.</li>
 </ol>
   </div>
   <div class="tag-cloud">
