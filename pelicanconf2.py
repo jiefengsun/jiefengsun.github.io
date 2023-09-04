@@ -55,7 +55,7 @@ SOCIAL = (
 	
 )
 
-MENUITEMS = (('Blog Posts', '/categories.html'),)
+MENUITEMS = (('Blog Posts', '/categories.html'),('Sun Robotics Lab ASU', 'https://sunroboticslab.github.io/'),)
 
 
 DISPLAY_PAGES_ON_MENU = True

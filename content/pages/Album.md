@@ -5,6 +5,10 @@ sortorder: 20
 
 #### Academic
 
+<center><figure> <img src="{static}/images/services/ONR_program_review.jpg" style="width:450px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;">
+ <figcaption> Joined ONR program review with my team and Prof. Frank Fish (from left to right: Billy, Jiefeng, Frank, Robert, and Luis). University Of Maryland, Washington DC. May 16, 2023. </figcaption>
+</figure> </center>
+
 <center><figure> <img src="{static}/images/services/EMCC_10_2_2022.jpg" style="width:450px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;">
  <figcaption> Presenting as a Rising Star in robotics at the Modeling, Estimation and Control Conference (MECC). Jersy City, NJ. Oct 2, 2022. </figcaption>
 </figure> </center>

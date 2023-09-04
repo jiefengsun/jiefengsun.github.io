@@ -1,12 +1,15 @@
 Title: Publication
 Date: 2020-05-18 08:00
-Modified: 2022-04-01 08:00
+Modified: 2023-07-01 08:00
 Category: Intro
 sortorder: 03
 
  **[[Google Scholar](https://scholar.google.com/citations?user=fjUoHOsAAAAJ&hl=en)]**
 
 #### Journal Articles
+1. S. Spiegel, **J. Sun**, and J. Zhao, “A shape-changing wheeling and jumping robot using tenseg-
+rity wheels and bistable mechanism,” IEEE/ASME Transactions on Mechatronics, 2023 [[<u>PDF</u>]]({static}/pdfs/spiegel2023shape.pdf)
+
 1. W. Wang†, **J. Sun†**, S. Vallabhuneni, B. Pawlowski, H. Vahabi, K. Nellenbach, A. C. Brown,
 F. Scholle, J. Zhao∗, and A. K. Kota∗, “On-demand, remote and lossless manipulation of
 biofluid droplets,” Materials Horizons (Accepted), 2022 († co-first author) [[<u>PDF</u>]]({static}/pdfs/wang2022on.pdf)[[<u>Video</u>]](https://youtu.be/kVO0zDcH858) [News]: [CSU News](https://engr.source.colostate.edu/soft-skills-researchers-invent-robotic-droplet-manipulators-for-hazardous-liquid-cleanup/), [Popular Science Magazine](https://www.popsci.com/technology/robot-liquid-droplet/), [TechXplore](https://techxplore.com/news/2022-11-soft-skills-robotic-droplet-hazardous.html). 
@@ -23,7 +26,9 @@ biofluid droplets,” Materials Horizons (Accepted), 2022 († co-first author) 
 
 1. B. Pawlowski, **J. Sun**, J. Xu, Y. Liu, and J. Zhao, “Modeling of soft robots actuated by twisted-and-coiled actuators,” IEEE/ASME Transactions on Mechatronics, vol. 24, no. 1, pp. 5–15, 2018. [[<u>PDF</u>]]({static}/pdfs/pawlowski2018modeling.pdf).
 
-#### Conference Proceedings 
+#### Conference Proceedings
+1. Ajai Singh, **J. Sun** and J. Zhao, “Controlling the Shape of Soft Robots Using the Koopman Operator”, in 2023 American Control Conference ACC). Invited Paper[Accepted].[[<u>PDF</u>]]({static}/pdfs/Singh_2023controlling.pdf).
+
 1. **J. Sun** and J. Zhao, “Modeling and simulation of soft robots driven by artificial muscles: an example using twisted-and-coiled actuators,” in 2022 American Control Conference ACC). Invited Paper[Accepted].[[<u>PDF</u>]]({static}/pdfs/sun2022modeling.pdf) [[<u>Video</u>]](https://youtu.be/FfRRqfR8YXw).
  
 1. H. Hsiao, F. Wu  **J. Sun**, and J. Zhao, “A novel passive mechanism for flying robots to perchonto surfaces,” in2022 IEEE International Conference on Robotics and Automation(ICRA).IEEE, 2022, [Accepted].[[<u>PDF</u>]]({static}/pdfs/Hsiao2022novel.pdf) [[<u>Video</u>]](https://youtu.be/oeuBp__kTSs).
