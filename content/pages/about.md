@@ -3,15 +3,16 @@ Date: 2020-05-18 08:00
 Modified: 2023-7-14 08:00
 sortorder: 01
 
-- updated: 7/14/2023
+- updated: 12/10/2023
 
-My name is Jiefeng Sun and I am a postdoc with [Prof. Rebecca Kramer-Bottiglio](https://www.eng.yale.edu/faboratory/) at Yale University. My research goal is to create robotic systems that can adapt to different environments through intelligent morphological change. Toward this goal, I leverage artificial muscles and artificial-muscle-driven robots and my work spans the fields of design, physics-based modeling, and control.
+My name is Jiefeng Sun and I am an an assistant professor in robotics at Arizona State University.
 
-I obtained my Ph.D. degree from [Colorado State University](https://www.engr.colostate.edu/me/) in Mechanical Engineering in Aug. 2022 under the supervision of [Prof. Jianguo Zhao](https://www.engr.colostate.edu/me/dr-jianguo-zhao/).  I earned my B.S. and M.S. in Mechanical Engineering respectively from Lanzhou University of Technology Lanzhou in 2014 and [Dalian University of Technology (DLUT)](http://en.dlut.edu.cn/) in 2017. Please find my [CV here]({static}/pdfs/CV_Jiefeng_Sun.pdf). Thanks!
+
+I was a postdoc with [Prof. Rebecca Kramer-Bottiglio](https://www.eng.yale.edu/faboratory/) at Yale University and I obtained my Ph.D. degree from [Colorado State University](https://www.engr.colostate.edu/me/) in Mechanical Engineering in Aug. 2022 under the supervision of [Prof. Jianguo Zhao](https://www.engr.colostate.edu/me/dr-jianguo-zhao/).  I earned my B.S. and M.S. in Mechanical Engineering respectively from Lanzhou University of Technology Lanzhou in 2014 and [Dalian University of Technology (DLUT)](http://en.dlut.edu.cn/) in 2017. Please find my [CV here]({static}/pdfs/CV_Jiefeng_Sun.pdf). 
 
 
 #### My Lab at ASU
-I will be joining Arizona State Unviersity as an assistant professor in robotics starting from 1/1/2024. I am looking for PhD, master, and undergraduate students to join my lab Spring, Summer, and Fall 2024. Please find the [Join-us flyer pdf]({static}/pdfs/PhD_opening_ASU_Sun_Robotics_Lab.pdf). Please visit our [website](http://sunrobotics.lab.asu.edu/)
+I am always looking for motivated PhD, master, and undergraduate students to join my lab. Please visit our [website](http://sunrobotics.lab.asu.edu/)
 
 
 The lab's mission is to develop novel robots that are adaptive to different environments, safely interact with humans, and match the adaptivity, robustness, and maneuverability of natural organisms. We will conduct research on robotic actuation and soft robots.
@@ -21,6 +22,9 @@ The lab's mission is to develop novel robots that are adaptive to different envi
 - Modeling and control
 - AI integration for robots.
 
+
+
+I stopped update research news since 1/1/2024 and **only use this website to document my personal life**.
 
 
 #### News
@@ -66,4 +70,4 @@ Before my PhD study: here is a [summary]({filename}/category/Before_PhD.md) of p
 1. Pelican (publishing webpages)  
 
 #### Contact
-- Email: <jiefeng.sun@yale.edu>, <jiefeng.sun@asu.edu>
+- Email: <jiefeng.sun@asu.edu>

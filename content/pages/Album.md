@@ -3,10 +3,19 @@ Date: 2019-05-01 08:00
 Modified: 2019-05-01 08:00
 sortorder: 20
 
-#### Academic
+#### Work
+
+<center><figure> <img src="{static}/images/services/good-bye_turtle_team_11_27_2023.jpg" style="width:450px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;">
+ <figcaption> ONR Turtle Team Good-bye lunch for Jiefeng's leave. (from left to right: Erick, Brandon, Luis, Billy, Jiefeng, and Esteban). Yale University, CT. Nov 26, 2023. </figcaption>
+</figure> </center>
+
 
 <center><figure> <img src="{static}/images/services/ONR_program_review.jpg" style="width:450px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;">
  <figcaption> Joined ONR program review with my team and Prof. Frank Fish (from left to right: Billy, Jiefeng, Frank, Robert, and Luis). University Of Maryland, Washington DC. May 16, 2023. </figcaption>
+</figure> </center>
+
+<center><figure> <img src="{static}/images/personal/Zhao_Group_lunch_11_20_2022.JPG" style="width:450px; padding-top:0px; padding-right:10px; padding-bottom:0px; padding-left:0px;">
+ <figcaption> Farewell Lunch of the research group for Jiefeng's leave  (From left to right: Eli, Zhe, Ajai, Dr. Zhao, Bryce, Sydney, Clint and Jiefeng) . Nov 20, 2022 </figcaption> 
 </figure> </center>
 
 <center><figure> <img src="{static}/images/services/EMCC_10_2_2022.jpg" style="width:450px; padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;">
@@ -62,9 +71,15 @@ sortorder: 20
 
 
 #### Personal
-<center><figure> <img src="{static}/images/personal/Zhao_Group_lunch_11_20_2022.JPG" style="width:450px; padding-top:0px; padding-right:10px; padding-bottom:0px; padding-left:0px;">
- <figcaption> Farewell Lunch of the research group for Jiefeng's leave  (From left to right: Eli, Zhe, Ajai, Dr. Zhao, Bryce, Sydney, Clint and Jiefeng) . Nov 20, 2022 </figcaption> 
+
+<center><figure> <img src="{static}/images/personal/FamlityFlower_4_14_2023.JPG" style="width:450px; padding-top:0px; padding-right:10px; padding-bottom:0px; padding-left:0px;">
+ <figcaption> Jiefeng Graduated with Ph.D. (From left to right: Li, Amelia, Jiefeng and Jiefeng's parents) . Aug 10, 2022 </figcaption> 
 </figure> </center>
+
+<center><figure> <img src="{static}/images/personal/PhD_graduation.jpg" style="width:450px; padding-top:0px; padding-right:10px; padding-bottom:0px; padding-left:0px;">
+ <figcaption> Jiefeng Graduated with Ph.D. (From left to right: Li, Amelia, Jiefeng and Jiefeng's parents) . Aug 10, 2022 </figcaption> 
+</figure> </center>
+
 
 <center><figure> <img src="{static}/images/personal/PhD_graduation.jpg" style="width:450px; padding-top:0px; padding-right:10px; padding-bottom:0px; padding-left:0px;">
  <figcaption> Jiefeng Graduated with Ph.D. (From left to right: Li, Amelia, Jiefeng and Jiefeng's parents) . Aug 10, 2022 </figcaption> 
@@ -85,7 +100,8 @@ sortorder: 20
 </figure> </center>
 
 
+
 <center><figure> <img src="{static}/images/personal/jiefeng_2years.jpg" style="width:450px; padding-top:10px; padding-right:0px; padding-bottom:0px; padding-left:0px;">
- <figcaption> Jiefeng used to have big eyes. Henan China. July 1994 </figcaption> 
+ <figcaption> Jiefeng had big eyes. Henan China. July 1994 </figcaption> 
 </figure> </center>
 
