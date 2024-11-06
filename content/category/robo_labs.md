@@ -33,7 +33,7 @@ Here are what the four labs covered:
 	- Use MATLAB ODE solvers to solve sample ODEs. 
 	- Solve robotics dynamics (a two link robot and a Puma 560 robot)
 
-1. [Lab 4: Position and Velocity Kinematics]({static}/images/teaching/robotics-lab4.html)
+<!-- 1. [Lab 4: Position and Velocity Kinematics]({static}/images/teaching/robotics-lab4.html) -->
 
 
 

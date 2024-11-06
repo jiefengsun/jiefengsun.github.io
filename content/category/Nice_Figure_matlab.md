@@ -5,7 +5,7 @@ Category: Research Tricks & Tools
 
 ### Plot a figure for IEEE Conference or Journals 
 
-Please download `IEEEfigure.m` from this [link]({static}/code/tutorial/IEEEfigure.m).
+<!-- Please download `IEEEfigure.m` from this [link]({static}/code/tutorial/IEEEfigure.m). -->
 Here is a code that you can see how I use it. 
 
 

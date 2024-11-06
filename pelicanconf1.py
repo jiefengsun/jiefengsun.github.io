@@ -20,14 +20,17 @@ ROBOTS = 'index, follow'
 OUTPUT_PATH = 'output'
 
 # Specify a customized theme, via path relative to the settings file
-THEME =  'C:/Users/jacksee/Documents/blog/themes/Flex2.4'
+# THEME =  'C:/Users/jacksee/Documents/blog/themes/Flex2.4'
+THEME = 'themes/Flex2.4'
 
 TIMEZONE = 'America/Denver'
 
 I18N_TEMPLATES_LANG = 'en'
 DEFAULT_LANG = 'en'
 OG_LOCALE = 'en_US'
-LOCALE = 'usa'
+# LOCALE = 'usa'
+LOCALE = 'en_US.UTF-8'
+
 
 DATE_FORMATS = {
     'en': '%B %d, %Y',
@@ -71,8 +74,9 @@ STATIC_PATHS = ['images','pdfs',] # ,'images/TRO',
 USE_LESS = True
 
 
-PLUGIN_PATHS = ['C:/Users/jacksee/Documents/blog/plugins']
+PLUGIN_PATHS = ['C:/Users/lizzy/Desktop/selflearning/sunRobotic/jiefengsun.github.io/plugins']
 PLUGINS = [ 'render_math']
+
 
 ENCRYPT_CONTENT = {
     'title_prefix': '[Encrypted]',

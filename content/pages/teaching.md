@@ -62,11 +62,11 @@ The labs include the lab handout, demo code, and homework. I will post some reco
 	- Use MATLAB ODE solvers to solve sample ODEs. 
 	- Solve robotics dynamics (a two link robot and a Puma 560 robot)
 
-1. [Lab 4:  Task Level Control of Robotic Manipulator ]({static}/images/teaching/robotics-lab4.html) [The answer of lab 3 homework is removed]
+<!-- 1. [Lab 4:  Task Level Control of Robotic Manipulator ]({static}/images/teaching/robotics-lab4.html) [The answer of lab 3 homework is removed]
 
 	- Code debuging techniques. Correct your lab 3. 
 	- Task level controller. 
-	- Tips for the lab 4 homework. 
+	- Tips for the lab 4 homework.  -->
 
 
 

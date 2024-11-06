@@ -19,9 +19,9 @@ Category: Chinese
 <img src="{static}/images/s2_shorter.gif" style="float:left; width:150px; padding-top:1em; padding-right:1.5em; padding-bottom:20px; padding-left:0px;">
 </figure>
 
-<figure>
-<img src="{static}/images/extend_TCA.gif" style="float:left; width:150px; padding-top:1em; padding-right:1.5em; padding-bottom:20px; padding-left:0px;">
-</figure>
+<!-- <figure>
+ <img src="{static}/images/scheme_TCA_soft.png" style="float:left; width:150px; padding-top:1em; padding-right:1.5em; padding-bottom:20px; padding-left:0px;"> 
+</figure> -->
 
 近日，发表在国际著名机器人期刊《软体机器人》（Soft Robotics）的一篇论文，提出了将这种人工肌肉进行改进，从而驱动软体机器人,实现各种形式的灵活运动， 如弯曲，扭转等。研究者用这种人工肌肉驱动具有不同变形功能的模块：一个微小的软体夹爪，一个扭转的机械手腕，和一个可以向任何方向灵活弯曲的机械臂。将这些模块组合在一起，形成了一个厘米级的软体机械臂，这个机械臂可以灵活抓取将物体，并且将其准确地放置到预定的位置。文中所描述的软体机器人将在电子器件，精密仪器组装，食品，药品等方面有广泛的应用。 当然，由于这个螺旋驱动器是柔软的，所以可以被放置成各种形状，从而实现各种各样的运动。
 

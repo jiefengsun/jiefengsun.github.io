@@ -20,7 +20,7 @@ Category: Chinese
 近期，耶鲁大学和科罗拉多州立大学的研究人员在世界著名期刊《自然-通讯》上发表一项创新性的研究，该研究彻底改变了传统机器人变形的方式。研究人员成功地将形状驱动、感知和锁定功能直接嵌入到机器人的内部结构，消除了外部硬件的笨重需求。
 
 <figure>
-<img src="{static}/images/shape_morphing/figure1.tif" style="float:left; width:150px; padding-top:1em; padding-right:1.5em; padding-bottom:20px; padding-left:0px;">
+<img src="{static}/images/shape_morphing/figure1.jpg" style="float:left; width:150px; padding-top:1em; padding-right:1.5em; padding-bottom:20px; padding-left:0px;">
 </figure>
 
 #### 创新之处

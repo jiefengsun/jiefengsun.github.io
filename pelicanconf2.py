@@ -3,7 +3,9 @@
 
 from datetime import datetime
 AUTHOR = 'Jiefeng Sun'
-SITEURL =  'http://localhost:8000'   # 'https://jiefengsun.github.io' #
+SITEURL = 'http://localhost:8000'
+   # 'https://jiefengsun.github.io' #
+
 SITENAME = 'Jiefeng personal website'
 # SITETITLE = 'Flex'
 SITESUBTITLE = 'Jiefeng Sun, Ph.D.'
@@ -11,8 +13,8 @@ SITEDESCRIPTION = 'Robotics and Artificial Muscle'
 SUMMARY_MAX_LENGTH = 0
 
 PATH = 'content'
-SITELOGO = '/images/jiefeng.jpg'
-FAVICON = 'C:/Users/jacksee/Documents/blog/content/images/favicon.ico'
+SITELOGO = '/images/jiefeng.jpg' # Very interesting, this should be relative to the output folder. Because this is called by Jinjia2 
+# FAVICON = '/images/favicon.ico'
 BROWSER_COLOR = '#333333'
 PYGMENTS_STYLE = 'github'
 LOAD_CONTENT_CACHE = False
@@ -20,18 +22,27 @@ ROBOTS = 'index, follow'
 OUTPUT_PATH = 'output'
 
 # Specify a customized theme, via path relative to the settings file
-THEME =  'C:/Users/jacksee/Documents/blog/themes/Flex2.4'
 
+THEME = './themes/Flex2.4' # this is relative the work directory
+
+# TIMEZONE = 'America/Denver'
+
+# I18N_TEMPLATES_LANG = 'en'
+# DEFAULT_LANG = 'en'
+# OG_LOCALE = 'en_US'
+# LOCALE = 'usa'
 TIMEZONE = 'America/Denver'
-
 I18N_TEMPLATES_LANG = 'en'
 DEFAULT_LANG = 'en'
 OG_LOCALE = 'en_US'
-LOCALE = 'usa'
+LOCALE = 'en_US.UTF-8'
+
+
 
 DATE_FORMATS = {
     'en': '%B %d, %Y',
 }
+
 PAGE_EXCLUDES = ['/images/TRO']
 ARTICLE_EXCLUDES = ['/images/TRO']
 
@@ -67,14 +78,18 @@ DEFAULT_PAGINATION = 10
 #DISQUS_SITENAME = "flex-pelican"
 #ADD_THIS_ID = 'ra-55adbb025d4f7e55'
 
-STATIC_PATHS = ['images','pdfs',] # ,'images/TRO', 
+# STATIC_PATHS = ['images','pdfs',] # ,'images/TRO', 
+STATIC_PATHS = ['images', 'pdfs']
+# INDEX_SAVE_AS = 'pages/about.html'
 
 # CUSTOM_CSS = 'static/custom.css'
 
 USE_LESS = True
 
-PLUGIN_PATHS = ['C:/ProgramData/Anaconda3/Lib/site-packages/pelican/plugins']
-PLUGINS = [ 'render_math']
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['render_math']
+
 
 ENCRYPT_CONTENT = {
     'title_prefix': '[Encrypted]',

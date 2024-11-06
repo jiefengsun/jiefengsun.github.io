@@ -3,7 +3,7 @@ Date: 2020-05-18 08:00
 Modified: 2023-7-14 08:00
 sortorder: 01
 
-- updated: 12/10/2023
+- updated: 06/20/2024
 
 My name is Jiefeng Sun and I am an an assistant professor in robotics at Arizona State University.
 

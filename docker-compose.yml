@@ -1,0 +1,22 @@
+
+# services:
+#   pelican:
+#     build: .
+#     ports:
+#       - "8000:8000"
+#     volumes:
+#       - .:/app
+#     command: pelican --listen --autoreload -s pelicanconf2.py -b 0.0.0.0
+
+services:
+  pelican:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      # - C:/Users/lizzy/Desktop/selflearning/sunRobotic/jiefengsun.github.io/content:/app/content
+      # - C:/Users/lizzy/Desktop/selflearning/sunRobotic/jiefengsun.github.io/themes:/app/themes
+      # - C:/Users/lizzy/Desktop/selflearning/sunRobotic/jiefengsun.github.io/output:/app/output
+    command: pelican --listen --autoreload -s /app/pelicanconf2.py -b 0.0.0.0
+
