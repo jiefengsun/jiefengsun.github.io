@@ -3,16 +3,14 @@ Date: 2020-05-18 08:00
 Modified: 2023-7-14 08:00
 sortorder: 01
 
-- updated: 06/20/2024
-
-My name is Jiefeng Sun and I am an an assistant professor in robotics at Arizona State University.
-
-
-I was a postdoc with [Prof. Rebecca Kramer-Bottiglio](https://www.eng.yale.edu/faboratory/) at Yale University and I obtained my Ph.D. degree from [Colorado State University](https://www.engr.colostate.edu/me/) in Mechanical Engineering in Aug. 2022 under the supervision of [Prof. Jianguo Zhao](https://www.engr.colostate.edu/me/dr-jianguo-zhao/).  I earned my B.S. and M.S. in Mechanical Engineering respectively from Lanzhou University of Technology Lanzhou in 2014 and [Dalian University of Technology (DLUT)](http://en.dlut.edu.cn/) in 2017. Please find my [CV here]({static}/pdfs/CV_Jiefeng_Sun.pdf). 
-
+My name is [Jiefeng Sun](https://search.asu.edu/profile/4837211) and I am an an assistant professor in robotics at Arizona State University. Please find my [CV here]({static}/pdfs/CV_Jiefeng_Sun.pdf). 
 
 #### My Lab at ASU
 I am always looking for motivated PhD, master, and undergraduate students to join my lab. Please visit our [website](http://sunrobotics.lab.asu.edu/)
+
+
+
+
 
 
 The lab's mission is to develop novel robots that are adaptive to different environments, safely interact with humans, and match the adaptivity, robustness, and maneuverability of natural organisms. We will conduct research on robotic actuation and soft robots.
@@ -24,10 +22,8 @@ The lab's mission is to develop novel robots that are adaptive to different envi
 
 
 
-I stopped update research news since 1/1/2024 and **only use this website to document my personal life**.
 
-
-#### News
+#### Archived News (please find my lab's news [here](https://sunrobotics.lab.asu.edu/news/))
 
 <!--- 11/1/2022 I start to serve as a guest editor in Frontiers in Robotics and AI under the topic of "Hybrid Actuators".-->
 - 6/5/2023 Our paper "A Shape-Changing Wheeling and Jumping Robot Using Tensegrity Wheels and Bistable Mechanism" is publised in T-mech. 
@@ -52,22 +48,10 @@ I stopped update research news since 1/1/2024 and **only use this website to doc
 #### My Links
 [【Google Scholar】](https://scholar.google.com/citations?user=fjUoHOsAAAAJ&hl=en), [【Researchgate】](https://www.researchgate.net/profile/Jiefeng_Sun2), [【Linkdin】](https://www.linkedin.com/in/jiefeng-sun/), [【YouTube Channels】](https://www.youtube.com/channel/UCkeHwaZrEeFG-GXNSTONIzg)
 
-#### [My blog ctegories](https://jiefengsun.github.io/categories.html)
-The blog contains my posts on my previous project summary (Robotics Modeling, Numerical Simulation, Artificial Muscle ect.).
 
-Before my PhD study: here is a [summary]({filename}/category/Before_PhD.md) of projects.
-
-#### Research Tools
-
-1. MATLAB (solving equations, deriving models) 
-1. Simulink/Simscape
-1. Python\C++ (numerical Implementation)
-1. LaTeX (preparing reports and papers) 
-1. Adobe Illustrator (preparing figures), Photoshop\Lightroom (editing photos), Premiere(preparing videos)
-1. SolidWorks (creating designs)
-1. Abaqus for FEA simulation
-1. Photoview 360 (model rendering)
-1. Pelican (publishing webpages)  
 
 #### Contact
 - Email: <jiefeng.sun@asu.edu>
+
+
+- updated: 12/28/2024

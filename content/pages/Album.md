@@ -71,19 +71,18 @@ sortorder: 20
 
 
 #### Personal
+<center><figure> <img src="{static}/images/personal/Sun_family_Sandiego_4_15_2024.JPG" style="width:450px; padding-top:0px; padding-right:10px; padding-bottom:0px; padding-left:0px;">
+ <figcaption> Jiefeng with Family at SanDiego) . April 15, 2024 </figcaption> 
+</figure> </center>
 
 <center><figure> <img src="{static}/images/personal/FamlityFlower_4_14_2023.JPG" style="width:450px; padding-top:0px; padding-right:10px; padding-bottom:0px; padding-left:0px;">
- <figcaption> Jiefeng Graduated with Ph.D. (From left to right: Li, Amelia, Jiefeng and Jiefeng's parents) . Aug 10, 2022 </figcaption> 
+ <figcaption> Jiefeng's family at New Heaven) . April 14, 2023 </figcaption> 
 </figure> </center>
 
 <center><figure> <img src="{static}/images/personal/PhD_graduation.jpg" style="width:450px; padding-top:0px; padding-right:10px; padding-bottom:0px; padding-left:0px;">
  <figcaption> Jiefeng Graduated with Ph.D. (From left to right: Li, Amelia, Jiefeng and Jiefeng's parents) . Aug 10, 2022 </figcaption> 
 </figure> </center>
 
-
-<center><figure> <img src="{static}/images/personal/PhD_graduation.jpg" style="width:450px; padding-top:0px; padding-right:10px; padding-bottom:0px; padding-left:0px;">
- <figcaption> Jiefeng Graduated with Ph.D. (From left to right: Li, Amelia, Jiefeng and Jiefeng's parents) . Aug 10, 2022 </figcaption> 
-</figure> </center>
 
 <center><figure> <img src="{static}/images/personal/Amelia_graduate_ECC.jpg" style="width:450px; padding-top:0px; padding-right:10px; padding-bottom:0px; padding-left:0px;">
  <figcaption> Amelia graduated from CSU Early Childhood Center's old toddler room. May 2022 </figcaption> 
